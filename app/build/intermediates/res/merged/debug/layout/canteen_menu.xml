@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/proceed"
+
+        android:textColor="#4d7358"
+        android:textStyle="bold"
+        android:text="Update"
+
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/sview"
+        android:layout_height="400dp">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+
+
+
+            <TextView
+
+                android:layout_width="391dp"
+                android:layout_height="wrap_content"
+
+                android:textColor="#0000b2"
+                android:textSize="23dp"
+                android:paddingLeft="100dp"
+                android:paddingTop="30dp"
+                android:text="South Indian"
+                />
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:text="Idli" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    ></TextView>
+
+
+
+
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:paddingLeft="20dp"
+
+                    android:text="30"
+                    android:id="@+id/idli" />
+
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:text="Dosa" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    ></TextView>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#150822"
+                    android:text="60"
+                    android:paddingLeft="20dp"
+                    android:textSize="17dp"
+                    android:id="@+id/dosa" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:text="Vada" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    ></TextView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:paddingLeft="20dp"
+                    android:text="20"
+                    android:id="@+id/vada" />
+            </TableRow>
+            <TableRow>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="#0000b2"
+                    android:textSize="23dp"
+                    android:paddingLeft="100dp"
+                    android:paddingTop="40dp"
+
+                    android:text="Chinese"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:text="Chowmein" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    ></TextView>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#150822"
+                    android:paddingLeft="20dp"
+                    android:textSize="17dp"
+                    android:text="50"
+                    android:id="@+id/chowmein" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:text="Spring Roll" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    ></TextView>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:text="40"
+                    android:paddingLeft="20dp"
+                    android:id="@+id/roll" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:text="Hakka" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    ></TextView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:text="60"
+                    android:paddingLeft="20dp"
+                    android:id="@+id/hakka" />
+            </TableRow>
+            <TableRow>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="#0000b2"
+                    android:textSize="23dp"
+                    android:paddingLeft="100dp"
+                    android:paddingTop="40dp"
+                    android:text="Snacks"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:text="Samosa" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    ></TextView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#150822"
+                    android:text="10"
+                    android:paddingLeft="20dp"
+                    android:textSize="17dp"
+                    android:id="@+id/samosa" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:text="Momos" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    ></TextView>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:text="20"
+                    android:paddingLeft="20dp"
+                    android:id="@+id/momos" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="50dp"
+                    android:paddingTop="25dp"
+                    android:paddingLeft="40dp"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:text="Burger" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#150822"
+                    android:textSize="17dp"
+                    android:text="30"
+                    android:paddingLeft="20dp"
+                    android:id="@+id/burger" />
+            </TableRow>
+
+            <!-- everything you already have -->
+        </TableLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="240dp"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content">
+<ImageButton
+    android:layout_width="wrap_content"
+    android:src="@drawable/review"
+    android:id="@+id/edit_menu"
+    android:layout_height="wrap_content" />
+       </LinearLayout>
+
+
+</LinearLayout>

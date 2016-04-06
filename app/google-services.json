@@ -1,0 +1,52 @@
+{
+  "project_info": {
+    "project_id": "messiah-1265",
+    "project_number": "563803350539",
+    "name": "Messiah"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563803350539:android:1a347d1a9e5414bd",
+        "client_id": "android:info.androidhive.slidingmenu",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "info.androidhive.slidingmenu",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563803350539-s179g2hq57fgr2l7qfjsrigrvf2l84m2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.androidhive.slidingmenu",
+            "certificate_hash": "2158771E0A962B6654FCF8D3E8B1086257C89C9A"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

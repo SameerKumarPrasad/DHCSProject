@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="15dp"
+    android:paddingTop="30dp"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/sview"
+        android:layout_height="456dp">
+    
+    <TextView
+        android:id="@+id/txtLabel"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:text="Many of us want to do community service but either we don't have the time or don't have enough resources. Through this app we want to bridge that gap. “Messiah” helps the student community to contribute to society by stopping the problem of wastage of food. Messiah is a voluntarily attendance system in which each person who attends mess is given a option to mark his attendance through an app so that the mess vendor has an estimate of number of people eating that day at that time in mess. The main design problem involved is in two phases. First target users are the students. The design here has to be as simple as possible so that the user can instantly mark his attendance, because this is a kind of a daily affair and if it consumes time, then the user may refrain from giving his input. The other target user is the mess vendor. This should have the minimalistic design so that the vendor can understand the desired information but also we cannot compromise on the stats presented. Apart from the feel good factor, we are also in talks with mess vendor to give some other benefits to the top scorers who provide daily inputs.
+Also we understand that this requires constant effort from the student community and after some time there may be a feeling of not caring so in order to supersede that feeling we are also providing the option of delivery from canteen and juice vendor to the hostel rooms. We have had talks with the juice vendor as well as canteen and they are supportive of the idea. Now the catch is that the delivery option would only be available to the people who provide constant feedback to the mess. ."/>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/list_item_title"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="23dp"
+            android:textStyle="bold"
+
+            android:text=""
+            android:paddingLeft="30dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="23dp"
+            android:paddingLeft="145dp"
+            android:textColor="#4d7358"
+            android:text="Yes"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="23dp"
+            android:paddingLeft="50dp"
+            android:textColor="#d64d4d"
+            android:textStyle="bold"
+            android:text="No"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="23dp"
+            android:textStyle="bold"
+
+            android:text=""
+            android:paddingLeft="30dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/correct"
+            android:paddingLeft="145dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/incorrect"
+            android:paddingLeft="55dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+android:textColor="#000000"
+            android:text="BreakFast"
+            android:paddingLeft="30dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:paddingLeft="50dp"
+            android:textColor="#4d7358"
+            android:text="225"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:paddingLeft="55dp"
+            android:textColor="#d64d4d"
+            android:text="150"
+        android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Lunch"
+            android:paddingLeft="30dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:paddingLeft="87dp"
+            android:textColor="#4d7358"
+            android:textStyle="bold"
+            android:text="670"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:paddingLeft="55dp"
+            android:textColor="#d64d4d"
+            android:textStyle="bold"
+            android:text="279"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Snacks"
+            android:paddingLeft="30dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:paddingLeft="75dp"
+            android:textColor="#4d7358"
+            android:text="530"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:paddingLeft="55dp"
+            android:textColor="#d64d4d"
+            android:text="116"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+
+            android:textColor="#000000"
+            android:text="Dinner"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:paddingLeft="80dp"
+            android:textStyle="bold"
+            android:textColor="#4d7358"
+            android:text="450"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:paddingLeft="55dp"
+            android:textColor="#d64d4d"
+            android:text="212"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

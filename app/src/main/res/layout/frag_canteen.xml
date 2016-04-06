@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+
+
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabHost">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_height="fill_parent">
+                    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:id="@+id/sview"
+                        android:layout_height="410dp">
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            >
+
+
+
+
+                            <TextView
+
+                                android:layout_width="391dp"
+                                android:layout_height="wrap_content"
+
+                                android:textColor="#0000b2"
+                                android:textSize="23dp"
+                                android:paddingLeft="100dp"
+                                android:paddingTop="40dp"
+                                android:text="South Indian"
+                                />
+
+
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+                            </TableRow>
+
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="50dp"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="Idli                  30" />
+                                <TextView
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="40dp"
+                                    ></TextView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="+"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/idli_plus"
+                                    android:clickable="false"
+                                    android:textColor="#cc0000"
+                                    style="@android:style/Widget.Button" />
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="-"
+
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+
+                                    android:id="@+id/idli_minus"
+                                    android:clickable="false"
+                                    android:textColor="#006600"
+                                    style="@android:style/Widget.Button"
+                                    android:layout_height="wrap_content" />
+
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:paddingLeft="20dp"
+
+                                    android:text="0"
+                                    android:id="@+id/idli" />
+
+
+                            </TableRow>
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="50dp"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="Dosa               35" />
+                                <TextView
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    ></TextView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="+"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/dosa_plus"
+                                    android:clickable="false"
+                                    android:textColor="#cc0000"
+                                    style="@android:style/Widget.Button" />
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="-"
+
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+
+                                    android:id="@+id/dosa_minus"
+                                    android:clickable="false"
+                                    android:textColor="#006600"
+                                    style="@android:style/Widget.Button"
+                                    android:layout_height="wrap_content" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#150822"
+                                    android:text="0"
+                                    android:paddingLeft="20dp"
+                                    android:textSize="17dp"
+                                    android:id="@+id/dosa" />
+                            </TableRow>
+
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="50dp"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="Vada               20" />
+
+                                <TextView
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    ></TextView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="+"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/vada_plus"
+                                    android:clickable="false"
+                                    android:textColor="#cc0000"
+                                    style="@android:style/Widget.Button" />
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="-"
+
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+
+                                    android:id="@+id/vada_minus"
+                                    android:clickable="false"
+                                    android:textColor="#006600"
+                                    style="@android:style/Widget.Button"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:paddingLeft="20dp"
+                                    android:text="0"
+                                    android:id="@+id/vada" />
+                            </TableRow>
+                            <TableRow>
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:textColor="#0000b2"
+                                    android:textSize="23dp"
+                                    android:paddingLeft="100dp"
+                                    android:paddingTop="40dp"
+
+                                    android:text="Chinese"
+                                    />
+
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+                            </TableRow>
+
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="Chowmein      55" />
+                                <TextView
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    ></TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="+"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/chowmein_plus"
+                                    android:clickable="false"
+                                    android:textColor="#cc0000"
+                                    style="@android:style/Widget.Button" />
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="-"
+
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+
+                                    android:id="@+id/chowmein_minus"
+                                    android:clickable="false"
+                                    android:textColor="#006600"
+                                    style="@android:style/Widget.Button"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#150822"
+                                    android:paddingLeft="20dp"
+                                    android:textSize="17dp"
+                                    android:text="0"
+                                    android:id="@+id/chowmein" />
+                            </TableRow>
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="50dp"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="Spring Roll     45" />
+                                <TextView
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    ></TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="+"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/roll_plus"
+                                    android:clickable="false"
+                                    android:textColor="#cc0000"
+                                    style="@android:style/Widget.Button" />
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="-"
+
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+
+                                    android:id="@+id/roll_minus"
+                                    android:clickable="false"
+                                    android:textColor="#006600"
+                                    style="@android:style/Widget.Button"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="0"
+                                    android:paddingLeft="20dp"
+                                    android:id="@+id/roll" />
+                            </TableRow>
+
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="50dp"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="Hakka             60" />
+
+                                <TextView
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    ></TextView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="+"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/hakka_plus"
+                                    android:clickable="false"
+                                    android:textColor="#cc0000"
+                                    style="@android:style/Widget.Button" />
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="-"
+
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+
+                                    android:id="@+id/hakka_minus"
+                                    android:clickable="false"
+                                    android:textColor="#006600"
+                                    style="@android:style/Widget.Button"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="0"
+                                    android:paddingLeft="20dp"
+                                    android:id="@+id/hakka" />
+                            </TableRow>
+                            <TableRow>
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:textColor="#0000b2"
+                                    android:textSize="23dp"
+                                    android:paddingLeft="100dp"
+                                    android:paddingTop="40dp"
+                                    android:text="Snacks"
+                                    />
+
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+                            </TableRow>
+
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="50dp"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="Samosa          10" />
+                                <TextView
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    ></TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="+"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/samosa_plus"
+                                    android:clickable="false"
+                                    android:textColor="#cc0000"
+                                    style="@android:style/Widget.Button" />
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="-"
+
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+
+                                    android:id="@+id/samosa_minus"
+                                    android:clickable="false"
+                                    android:textColor="#006600"
+                                    style="@android:style/Widget.Button"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#150822"
+                                    android:text="0"
+                                    android:paddingLeft="20dp"
+                                    android:textSize="17dp"
+                                    android:id="@+id/samosa" />
+                            </TableRow>
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="50dp"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="Momos           20" />
+                                <TextView
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    ></TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="+"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/momos_plus"
+                                    android:clickable="false"
+                                    android:textColor="#cc0000"
+                                    style="@android:style/Widget.Button" />
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="-"
+
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+
+                                    android:id="@+id/momos_minus"
+                                    android:clickable="false"
+                                    android:textColor="#006600"
+                                    style="@android:style/Widget.Button"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="0"
+                                    android:paddingLeft="20dp"
+                                    android:id="@+id/momos" />
+                            </TableRow>
+
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="50dp"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="Burger             30" />
+                                <TextView
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="wrap_content"
+                                    ></TextView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="+"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/burger_plus"
+                                    android:clickable="false"
+                                    android:textColor="#cc0000"
+                                    style="@android:style/Widget.Button" />
+
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:text="-"
+
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+
+                                    android:id="@+id/burger_minus"
+                                    android:clickable="false"
+                                    android:textColor="#006600"
+                                    style="@android:style/Widget.Button"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="0"
+                                    android:paddingLeft="20dp"
+                                    android:id="@+id/burger" />
+                            </TableRow>
+
+                            <!-- everything you already have -->
+                        </TableLayout>
+
+
+                    </ScrollView>
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:id="@+id/proceed"
+
+
+                        android:text="Proceed"
+
+
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+
+                </LinearLayout>
+
+                <!--tab1 yahan tak h-->
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <!---  yahan se andar daal diya !!!!!!!!!!!!!!!!! -->
+
+                    <TabHost
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tabHost2">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical">
+
+                            <TabWidget
+                                android:id="@android:id/tabs"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"></TabWidget>
+
+                            <FrameLayout
+                                android:id="@android:id/tabcontent"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:id="@+id/tab3"
+                                    android:orientation="vertical"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent">
+
+                                    <ScrollView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="100dp">
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:id="@+id/tab3ly"
+                                            android:orientation="vertical"
+                                            android:layout_height="wrap_content">
+
+                                        </LinearLayout>
+                                    </ScrollView>
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:paddingLeft="255dp"
+                                        android:paddingTop="200dp"
+                                        android:layout_height="wrap_content">
+                                        <ImageButton
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/imageButton1"
+
+                                            android:src="@drawable/add_review"/>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+
+                            </FrameLayout>
+                        </LinearLayout>
+                    </TabHost>
+                </LinearLayout>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>

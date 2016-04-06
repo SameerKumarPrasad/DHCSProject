@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+
+            android:textColor="#d64d4d"
+            android:text="Sameer"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:isIndicator="true"
+                android:rating="3"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:paddingLeft="50dp"
+                android:textColor="#000000"
+                android:text="Samosa is very spicy."
+
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#d64d4d"
+            android:text="Simranjeet"
+            android:paddingLeft="30dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:layout_height="wrap_content">
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:isIndicator="true"
+                android:rating="5"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:paddingLeft="50dp"
+                android:textColor="#000000"
+                android:text="Burger is so yummy!!"
+
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#d64d4d"
+            android:text="Diljyot"
+            android:paddingLeft="30dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:layout_height="wrap_content">
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:isIndicator="true"
+                android:rating="2"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:paddingLeft="50dp"
+                android:textColor="#000000"
+                android:text="Please start Naan thalis like the moolchand ones."
+
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+
+            android:textColor="#d64d4d"
+            android:text="Kapil"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp"
+            android:paddingLeft="20dp"
+            android:layout_height="wrap_content">
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:isIndicator="true"
+                android:rating="0"
+
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:paddingLeft="50dp"
+                android:textColor="#000000"
+                android:text="Worst Canteen we ever had !!"
+
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="   "
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>
+</ScrollView>
+    </LinearLayout>

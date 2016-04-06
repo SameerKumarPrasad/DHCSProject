@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+
+
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabHost">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_height="fill_parent">
+
+                    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:id="@+id/sview"
+                        android:layout_height="417dp">
+
+
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            >
+
+
+
+
+                            <TextView
+
+                                android:layout_width="391dp"
+                                android:layout_height="wrap_content"
+
+                                android:textColor="#0000b2"
+                                android:textSize="23dp"
+                                android:paddingLeft="40dp"
+                                android:paddingTop="40dp"
+                                android:text="BreakFast"
+                                />
+
+
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+
+                            </TableRow>
+
+                            <TableRow>
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="50dp"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="Idli, Sambhar, Chutney, Milk, Bread Butter" />
+                            </TableRow>
+                            <TableRow>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:paddingTop="25dp"
+                                    android:orientation="horizontal"
+                                    android:paddingLeft="40dp"
+                                    android:layout_height="wrap_content">
+
+
+                                    <RadioGroup
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/radioGroup1">
+
+                                        <RadioButton
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/rb11"
+                                            android:layout_gravity="center"
+                                            android:textColor="#0660cd"
+                                            android:textStyle="bold"
+
+                                            android:text="YES" />
+
+                                        <TextView
+                                            android:layout_width="40dp"
+
+                                            android:layout_height="wrap_content" />
+                                        <RadioButton
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:id="@+id/rb12"
+                                            android:textColor="#0660cd"
+                                            android:text="NO" />
+
+                                    </RadioGroup>
+
+
+                                </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+                            </TableRow>
+
+
+                            <TableRow>
+                                <TextView
+
+                                    android:layout_width="391dp"
+                                    android:layout_height="wrap_content"
+
+                                    android:textColor="#0000b2"
+                                    android:textSize="23dp"
+                                    android:paddingLeft="40dp"
+                                    android:paddingTop="40dp"
+                                    android:text="Lunch"
+                                    />
+
+
+
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="50dp"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="Chole Bhature, Khichdi, Salad, Curd" />
+
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:paddingTop="25dp"
+                                    android:orientation="horizontal"
+                                    android:paddingLeft="40dp"
+                                    android:layout_height="wrap_content">
+
+
+                                    <RadioGroup
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/radioGroup2">
+                                        <RadioButton
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+
+                                            android:layout_gravity="center"
+                                            android:textColor="#0660cd"
+                                            android:textStyle="bold"
+                                            android:id="@+id/rb21"
+                                            android:text="YES" />
+
+                                        <TextView
+                                            android:layout_width="40dp"
+
+                                            android:layout_height="wrap_content" />
+                                        <RadioButton
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:id="@+id/rb22"
+                                            android:textColor="#0660cd"
+                                            android:text="NO" />
+
+                                    </RadioGroup>
+
+
+                                </LinearLayout>
+                            </TableRow>
+
+
+                            <!-- everything you already have -->
+                            <TableRow>
+                                <TextView
+
+                                    android:layout_width="391dp"
+                                    android:layout_height="wrap_content"
+
+                                    android:textColor="#0000b2"
+                                    android:textSize="23dp"
+                                    android:paddingLeft="40dp"
+                                    android:paddingTop="40dp"
+                                    android:text="Snacks"
+                                    />
+
+
+
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="50dp"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="Samosa, Tea" />
+
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:paddingTop="25dp"
+                                    android:orientation="horizontal"
+                                    android:paddingLeft="40dp"
+                                    android:layout_height="wrap_content">
+
+
+                                    <RadioGroup
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/radioGroup3">
+                                        <RadioButton
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+
+                                            android:layout_gravity="center"
+                                            android:textColor="#0660cd"
+                                            android:textStyle="bold"
+                                            android:id="@+id/rb31"
+                                            android:text="YES" />
+
+                                        <TextView
+                                            android:layout_width="40dp"
+
+                                            android:layout_height="wrap_content" />
+                                        <RadioButton
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:id="@+id/rb32"
+                                            android:textColor="#0660cd"
+                                            android:text="NO" />
+
+                                    </RadioGroup>
+
+
+                                </LinearLayout>
+                            </TableRow>
+
+                            <!--Dinner-->
+
+                            <TableRow>
+                                <TextView
+
+                                    android:layout_width="391dp"
+                                    android:layout_height="wrap_content"
+
+                                    android:textColor="#0000b2"
+                                    android:textSize="23dp"
+                                    android:paddingLeft="40dp"
+                                    android:paddingTop="40dp"
+                                    android:text="Dinner"
+                                    />
+
+
+
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:layout_width="10dp"
+                                    android:layout_height="50dp"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:text="Mix Dal, Malai Kofta, Rice, Roti" />
+
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:paddingTop="25dp"
+                                    android:orientation="horizontal"
+                                    android:paddingLeft="40dp"
+                                    android:layout_height="wrap_content">
+
+
+                                    <RadioGroup
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/radioGroup4">
+                                        <RadioButton
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+
+                                            android:layout_gravity="center"
+                                            android:textColor="#0660cd"
+                                            android:textStyle="bold"
+                                            android:id="@+id/rb41"
+                                            android:text="YES" />
+
+                                        <TextView
+                                            android:layout_width="40dp"
+
+                                            android:layout_height="wrap_content" />
+                                        <RadioButton
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:textStyle="bold"
+                                            android:id="@+id/rb42"
+                                            android:textColor="#0660cd"
+                                            android:text="NO" />
+
+                                    </RadioGroup>
+
+
+                                </LinearLayout>
+                            </TableRow>
+
+
+                        </TableLayout>
+
+                    </ScrollView>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:paddingLeft="140dp"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:text="Submit"
+                            android:id="@+id/update"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <!--tab1 yahan tak h-->
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <!---  yahan se andar daal diya !!!!!!!!!!!!!!!!! -->
+
+                    <TabHost
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tabHost2">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical">
+
+                            <TabWidget
+                                android:id="@android:id/tabs"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"></TabWidget>
+
+                            <FrameLayout
+                                android:id="@android:id/tabcontent"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:id="@+id/tab3"
+                                    android:orientation="vertical"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent">
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:id="@+id/nasta_tv"
+                                        android:textSize="17dp"
+                                        android:paddingLeft="30dp"
+                                        android:paddingTop="20dp"
+
+                                        android:textColor="#034377"
+                                        android:layout_height="wrap_content" />
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:paddingLeft="255dp"
+                                        android:paddingTop="260dp"
+                                        android:layout_height="wrap_content">
+                                        <ImageButton
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/imageButton1"
+
+                                            android:src="@drawable/add_review"/>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/tab4"
+                                    android:layout_width="fill_parent"
+                                    android:orientation="vertical"
+                                    android:layout_height="fill_parent">
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:id="@+id/lunch_tv"
+                                        android:textSize="17dp"
+                                        android:paddingLeft="30dp"
+                                        android:paddingTop="20dp"
+
+                                        android:textColor="#034377"
+                                        android:layout_height="wrap_content" />
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:paddingLeft="255dp"
+                                        android:paddingTop="260dp"
+                                        android:layout_height="wrap_content">
+                                        <ImageButton
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/imageButton2"
+
+                                            android:src="@drawable/add_review"/>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:id="@+id/tab5"
+                                    android:orientation="vertical"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent">
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:id="@+id/snacks_tv"
+                                        android:textSize="17dp"
+                                        android:paddingLeft="30dp"
+                                        android:paddingTop="20dp"
+
+                                        android:textColor="#034377"
+                                        android:layout_height="wrap_content" />
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:paddingLeft="255dp"
+                                        android:paddingTop="260dp"
+                                        android:layout_height="wrap_content">
+                                        <ImageButton
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/imageButton3"
+
+                                            android:src="@drawable/add_review"/>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/tab6"
+                                    android:orientation="vertical"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent">
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:id="@+id/dinner_tv"
+                                        android:textSize="17dp"
+                                        android:paddingLeft="30dp"
+                                        android:paddingTop="20dp"
+
+                                        android:textColor="#034377"
+                                        android:layout_height="wrap_content" />
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:paddingLeft="255dp"
+                                        android:paddingTop="260dp"
+                                        android:layout_height="wrap_content">
+                                        <ImageButton
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:id="@+id/imageButton4"
+
+                                            android:src="@drawable/add_review"/>
+
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+
+
+                            </FrameLayout>
+                        </LinearLayout>
+                    </TabHost>
+                </LinearLayout>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>

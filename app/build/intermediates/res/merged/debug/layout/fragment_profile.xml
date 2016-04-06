@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:paddingLeft="120dp"
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:src="@drawable/pic"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingTop="50dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="My Points"
+            android:textSize="19dp"
+            android:textColor="#0000b2"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingLeft="80dp"
+            android:textSize="17dp"
+            android:text="50"
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingTop="40dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Meals / Total"
+            android:textSize="19dp"
+            android:textColor="#0000b2"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingLeft="55dp"
+            android:textSize="17dp"
+            android:textColor="#000000"
+            android:text="0.4"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingTop="40dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Paytm Balance"
+            android:textSize="19dp"
+            android:textColor="#0000b2"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingLeft="40dp"
+            android:textSize="17dp"
+            android:text="113"
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingTop="40dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Contact No."
+            android:textSize="19dp"
+            android:textColor="#0000b2"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingLeft="70dp"
+            android:textSize="17dp"
+            android:id="@+id/no"
+            android:text="9711947822"
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+
+
+<TextView
+    android:layout_width="10dp"
+    android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:id="@+id/imageButton"
+
+            android:src="@drawable/input_n"
+
+            android:layout_gravity="right"
+            android:layout_weight="0.08" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
