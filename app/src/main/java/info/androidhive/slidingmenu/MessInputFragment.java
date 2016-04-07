@@ -68,7 +68,7 @@ public class MessInputFragment extends Fragment implements MediaStore.MediaColum
     TabHost th1,th2;
 
     ImageButton imgButton1,imgButton2,imgButton3,imgButton4;
-    private String m_Text1 = "",m_Text2 = "",m_Text3 = "",m_Text4 = "",x="";
+    private String m_Text1 = "",m_Text2 = "",m_Text3 = "",m_Text4 = "",pname="";
     public MessInputFragment(){}
 
     TextView nasta_tv,lunch_tv,snacks_tv,dinner_tv;
@@ -84,9 +84,11 @@ public class MessInputFragment extends Fragment implements MediaStore.MediaColum
                              Bundle savedInstanceState) {
 
 
+
+
         View rootView = inflater.inflate(R.layout.fragment_mess, container, false);
         sign_in obj=new sign_in();
-        x= obj.personName;
+        pname= obj.personName;
 
         //--------------------------oncheckedchagelistner for radiogroup1----------------------
         radioGroup1 = (RadioGroup)rootView.findViewById(R.id.radioGroup1);

@@ -79,5 +79,6 @@
     </array>
     <!-- Content Description -->
     <string name="desc_list_item_icon">Item Icon</string>
+    <string name="txtplace">Place</string>
 
 </resources>

@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.text.InputType;
 import android.view.LayoutInflater;
@@ -18,22 +19,67 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TabHost;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInResult;
+import com.squareup.okhttp.MediaType;
+import com.squareup.okhttp.OkHttpClient;
+import com.squareup.okhttp.Request;
+import com.squareup.okhttp.RequestBody;
+import com.squareup.okhttp.Response;
+
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 
 public class CanteenFragment extends Fragment {
 	
 	public CanteenFragment(){}
+
+    //variables to post review google form
+    public static final MediaType FORM_DATA_TYPE = MediaType.parse("application/x-www-form-urlencoded; charset=utf-8");
+    //URL derived from form URL
+    //---------------URL for response of userinput for Canteen Review--------------------
+    public static final String URL="https://docs.google.com/a/iiitd.ac.in/forms/d/1ATySjpO8SeQijhnjP0sP5-XaQlBuTtEguZbqh5SMSow/formResponse";
+    //-----------------------URL for canteen orders--------------------------------------
+    public static final String URL1="https://docs.google.com/a/iiitd.ac.in/forms/d/1haR-DZ1uk8UL7AFRONoMQgnpB8opFdrdtC7geJ4aAMY/formResponse";
 
     TextView roll_plus,roll_minus,roll,idli_plus,idli_minus,idli,dosa_plus,dosa_minus,dosa,vada_plus,vada_minus,vada;
     TextView chowmein_plus,chowmein_minus,chowmein,hakka_plus,hakka_minus,hakka,momos_plus,momos_minus,momos;
     TextView samosa_plus,samosa_minus,samosa,burger_plus,burger_minus,burger;
     int roll_count=0,idli_count=0,samosa_count=0,burger_count=0,momos_count=0,chowmein_count=0,hakka_count=0,dosa_count=0,vada_count=0;
 
+    public static final String REVIEW_KEY="entry_294838471";
+
+    public static final String UNAME_KEY="entry_1581935754";
+    public static final String MOBILE_KEY="entry_1434612136";
+    public static final String PLACE_KEY="entry_69826248";
+    public static final String IDLI_KEY="entry_2130515782";
+    public static final String DOSA_KEY="entry_1615627686";
+    public static final String VADA_KEY="entry_1821514374";
+    public static final String CHOWMEIN_KEY="entry_462306451";
+    public static final String SPRINGROLL_KEY="entry_1341071666";
+    public static final String HAKKA_KEY="entry_17557981";
+    public static final String SAMOSA_KEY="entry_522077565";
+    public static final String MOMOS_KEY="entry_396596316";
+    public static final String BURGER_KEY="entry_1987358168";
+
     TabHost th1,th2;
     LinearLayout tab3ly;
-    String m_text;
+    String m_text,pname="";
     Button proceed;
     ImageButton imgButton1;
     private Context mContext;
+    private EditText DPlace;
+
+    /*GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent();
+    GoogleSignInAccount acct = result.getSignInAccount();
+    String personName = acct.getDisplayName();
+    String personEmail = acct.getEmail();*/
+    //private EditText Mobile;
+    private String Mobile = "9643730533";
     @Override
     public void onAttach(final Activity activity) {
         super.onAttach(activity);
@@ -43,10 +89,15 @@ public class CanteenFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
 
+        sign_in obj=new sign_in();
+        pname= obj.personName;
+
         View rootView = inflater.inflate(R.layout.frag_canteen, container, false);
+
+
         proceed=(Button)rootView.findViewById(R.id.proceed);
         tab3ly=(LinearLayout)rootView.findViewById(R.id.tab3ly);
-
+        DPlace = (EditText)rootView.findViewById(R.id.etxtplace);
         imgButton1 =(ImageButton)rootView.findViewById(R.id.imageButton1);
         imgButton1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,6 +126,10 @@ public class CanteenFragment extends Fragment {
                         m_text = input.getText().toString();
 
                         tvxx.setText(m_text);
+                        PostDataTask postDataTask = new PostDataTask();
+
+                        //execute asynctask
+                        postDataTask.execute(URL, m_text);
                     }
                 });
                 builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -124,7 +179,7 @@ public class CanteenFragment extends Fragment {
                     tv.setTextColor(Color.parseColor("#000000"));
                     tv.setTextSize(14);
 
-                    ; // unselected
+                    // ; // unselected
                 }
                 th1.getTabWidget().getChildAt(th1.getCurrentTab())
                         .setBackgroundColor(Color.TRANSPARENT); // selected
@@ -342,13 +397,134 @@ public class CanteenFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
+                PostDataTask1 postDataTask1 = new PostDataTask1();
 
+                //execute asynctask
+                postDataTask1.execute(URL1, Mobile, DPlace.getText().toString(), idli.getText().toString(), dosa.getText().toString(), vada.getText().toString(), chowmein.getText().toString(), roll.getText().toString(), hakka.getText().toString(), samosa.getText().toString(), momos.getText().toString(),burger.getText().toString());
 
-                Intent intent = new Intent(getActivity(), order.class);
-                startActivity(intent);
+                /*Intent intent = new Intent(getActivity(), order.class);
+                startActivity(intent);*/
 
             }
         });
         return rootView;
+    }
+
+    //-----------------------AsyncTask to send Canteen review data as a http POST request-------------------
+    private class PostDataTask extends AsyncTask<String, Void, Boolean> {
+
+        @Override
+        protected Boolean doInBackground(String... inputData) {
+            Boolean result = true;
+            String url = inputData[0];
+            String reviewC = inputData[1];
+            String postBody="";
+
+            try {
+                //all values must be URL encoded to make sure that special characters like & | ",etc.
+                //do not cause problems
+                postBody = REVIEW_KEY+"=" + URLEncoder.encode(reviewC, "UTF-8");
+            } catch (UnsupportedEncodingException ex) {
+                result=false;
+            }
+
+
+            try{
+                //Create OkHttpClient for sending request
+                OkHttpClient client = new OkHttpClient();
+                //Create the request body with the help of Media Type
+                RequestBody body = RequestBody.create(FORM_DATA_TYPE, postBody);
+                Request request = new Request.Builder()
+                        .url(url)
+                        .post(body)
+                        .build();
+                //Send the request
+                Response response = client.newCall(request).execute();
+            }catch (IOException exception){
+                result=false;
+            }
+            return result;
+        }
+
+        @Override
+        protected void onPostExecute(Boolean result){
+            //Print Success or failure message accordingly
+            Toast.makeText(mContext, result ? "Message successfully sent!" : "There was some error in sending message. Please try again after some time.", Toast.LENGTH_LONG).show();
+        }
+
+    }
+
+    //------------------------AsyncTask to send data for meals as a http POST request--------------------------
+    private class PostDataTask1 extends AsyncTask<String, Void, Boolean> {
+
+        @Override
+        protected Boolean doInBackground(String... inputData) {
+            Boolean result = true;
+            String url = inputData[0];
+           // String un = inputData[1];
+            String mo = inputData[1];
+            String pl = inputData[2];
+            String idl = inputData[3];
+            String dos = inputData[4];
+            String vad = inputData[5];
+            String chow = inputData[6];
+            String sprg = inputData[7];
+            String hak = inputData[8];
+            String samo = inputData[9];
+            String momo = inputData[10];
+            String burg = inputData[11];
+            String postBody="";
+
+            try {
+                //all values must be URL encoded to make sure that special characters like & | ",etc.
+                //do not cause problems
+                postBody = /*UNAME_KEY+"=" + URLEncoder.encode(un, "UTF-8") +
+                        "&" +*/MOBILE_KEY  + "=" + URLEncoder.encode(mo,"UTF-8") +
+                        "&" + PLACE_KEY + "=" + URLEncoder.encode(pl,"UTF-8")+
+                        "&" + IDLI_KEY + "=" + URLEncoder.encode(idl,"UTF-8") +
+                        "&" + DOSA_KEY + "=" + URLEncoder.encode(dos,"UTF-8")+
+                        "&" + VADA_KEY + "=" + URLEncoder.encode(vad,"UTF-8") +
+                        "&" + CHOWMEIN_KEY + "=" + URLEncoder.encode(chow,"UTF-8")+
+                        "&" + SPRINGROLL_KEY + "=" + URLEncoder.encode(sprg,"UTF-8") +
+                        "&" + HAKKA_KEY + "=" + URLEncoder.encode(hak,"UTF-8")+
+                        "&" + SAMOSA_KEY + "=" + URLEncoder.encode(samo,"UTF-8") +
+                        "&" + MOMOS_KEY + "=" + URLEncoder.encode(momo,"UTF-8")+
+                        "&" + BURGER_KEY + "=" + URLEncoder.encode(burg,"UTF-8");
+            } catch (UnsupportedEncodingException ex) {
+                result=false;
+            }
+
+            /*
+            //If you want to use HttpRequest class from http://stackoverflow.com/a/2253280/1261816
+            try {
+			HttpRequest httpRequest = new HttpRequest();
+			httpRequest.sendPost(url, postBody);
+		}catch (Exception exception){
+			result = false;
+		}
+            */
+
+            try{
+                //Create OkHttpClient for sending request
+                OkHttpClient client = new OkHttpClient();
+                //Create the request body with the help of Media Type
+                RequestBody body = RequestBody.create(FORM_DATA_TYPE, postBody);
+                Request request = new Request.Builder()
+                        .url(url)
+                        .post(body)
+                        .build();
+                //Send the request
+                Response response = client.newCall(request).execute();
+            }catch (IOException exception){
+                result=false;
+            }
+            return result;
+        }
+
+        protected void onPostExecute(Boolean result){
+            //Print Success or failure message accordingly
+            Toast.makeText(mContext, result ? "Message successfully sent!" : "There was some error in sending message. Please try again after some time.", Toast.LENGTH_LONG).show();
+        }
+
     }
 }

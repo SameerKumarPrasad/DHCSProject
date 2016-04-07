@@ -565,6 +565,7 @@
                         </TableLayout>
 
 
+
                     </ScrollView>
 
 
@@ -580,10 +581,25 @@
                         android:layout_gravity="center_horizontal"
                         />
 
-
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="56px"
+                        android:orientation="horizontal">
+                        <TextView android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:text="@string/txtplace"
+                            android:id="@+id/txtplace" >
+                        </TextView>
+                        <EditText android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/etxtplace">
+                        </EditText>
+                    </LinearLayout>
                 </LinearLayout>
 
                 <!--tab1 yahan tak h-->
+
+
                 <LinearLayout
                     android:id="@+id/tab2"
                     android:layout_width="fill_parent"

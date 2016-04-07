@@ -25,7 +25,7 @@
             android:paddingLeft="30dp"
             android:paddingTop="20dp"
             android:textSize="23dp"
-
+            android:id="@+id/announcement"
            
             android:layout_height="wrap_content" />
             </LinearLayout>
@@ -38,7 +38,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:text="Post"
-
+                android:id="@+id/ab"
                 android:textColor="#4d7358"
                 android:textStyle="bold"
                 android:layout_height="wrap_content" />

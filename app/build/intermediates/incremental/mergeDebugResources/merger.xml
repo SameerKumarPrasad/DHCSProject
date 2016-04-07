@@ -1699,7 +1699,7 @@
         <item>Poll</item>
 
 
-    </string-array></file><file path="/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+    </string-array><string name="txtplace">Place</string></file><file path="/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/values/styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style><style name="AppBaseTheme" parent="android:Theme.Light">
         <!--

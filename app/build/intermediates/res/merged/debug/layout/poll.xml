@@ -42,7 +42,7 @@
     <EditText
         android:layout_width="match_parent"
         android:hint="Your Question"
-
+        android:id="@+id/question"
         android:layout_height="wrap_content" />
 
     </LinearLayout>
@@ -73,6 +73,7 @@
     <EditText
         android:layout_width="match_parent"
         android:hint="Option 1"
+        android:id="@+id/opt1"
         android:imeOptions="flagNoExtractUi"
         android:windowSoftInputMode="adjustResize|stateHidden"
         android:layout_height="wrap_content" />
@@ -80,6 +81,7 @@
     <EditText
         android:layout_width="match_parent"
         android:hint="Option 2"
+        android:id="@+id/opt2"
         android:layout_height="wrap_content" />
 
 
@@ -108,7 +110,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:text="Submit"
-
+                    android:id="@+id/submit"
                     android:textColor="#4d7358"
                     android:textStyle="bold"
                     android:layout_height="wrap_content" />
