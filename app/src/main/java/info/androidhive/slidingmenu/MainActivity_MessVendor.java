@@ -13,7 +13,6 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;
-import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -237,10 +236,10 @@ Context ctx;
 
                 break;
             case 3:
-                fragment = new Announcement();
+                fragment = new Announcement_Mess();
                 break;
             case 4:
-                fragment = new Poll();
+                fragment = new Poll_mess();
                 break;
 
 
@@ -274,6 +273,8 @@ Context ctx;
             Log.e("MainActivity", "Error in creating fragment");
         }
     }
+
+
 
     @Override
     public void setTitle(CharSequence title) {

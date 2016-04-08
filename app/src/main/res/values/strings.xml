@@ -23,6 +23,8 @@
         <item >Canteen</item>
         <item >Paytm Wallet</item>
         <item >Settings</item>
+        <item>Poll</item>
+        <item>Announcement</item>
         <item >About Us</item>
         <item >Contact Us</item>
     </string-array>
@@ -55,6 +57,8 @@
         <item>@drawable/canteen_n</item>
         <item>@drawable/wallet_n</item>
         <item>@drawable/settings_n</item>
+        <item>@drawable/question</item>
+        <item>@drawable/announcement</item>
         <item>@drawable/about_n</item>
 
         <item>@drawable/contact_n</item>

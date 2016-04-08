@@ -86,6 +86,10 @@ public class MainActivity extends Activity {
 
 			navDrawerItems.add(new NavDrawerItem(navMenuTitles[6], navMenuIcons.getResourceId(6, -1)));
 
+		navDrawerItems.add(new NavDrawerItem(navMenuTitles[7], navMenuIcons.getResourceId(7, -1)));
+
+		navDrawerItems.add(new NavDrawerItem(navMenuTitles[8], navMenuIcons.getResourceId(8, -1)));
+
 			// Recycle the typed array
 			navMenuIcons.recycle();
 
@@ -233,10 +237,18 @@ public class MainActivity extends Activity {
 					break;
 
 				case 5:
-					fragment = new AboutUsFragment();
+					fragment = new Poll_user();
 					break;
 
 				case 6:
+					fragment = new Announcement_user();
+					break;
+
+				case 7:
+					fragment = new AboutUsFragment();
+					break;
+
+				case 8:
 					fragment = new ContactUsFragment();
 					break;
 

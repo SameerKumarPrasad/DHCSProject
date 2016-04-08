@@ -246,7 +246,7 @@ public class MessInputFragment extends Fragment implements MediaStore.MediaColum
         th1.setup();
         TabHost.TabSpec specs = th1.newTabSpec("tag1");
         specs.setContent(R.id.tab1);
-        specs.setIndicator("Poll");
+        specs.setIndicator("Poll_mess");
         th1.addTab(specs);
         specs=th1.newTabSpec("tag2");
         specs.setContent(R.id.tab2);

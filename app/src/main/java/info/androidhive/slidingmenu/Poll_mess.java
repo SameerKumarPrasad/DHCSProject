@@ -35,12 +35,12 @@ import java.net.URLEncoder;
 /**
  * Created by Kapil Khatri on 05-Apr-16.
  */
-public class Poll extends Fragment {
+public class Poll_mess extends Fragment {
 
     //variables to post review google form
     public static final MediaType FORM_DATA_TYPE = MediaType.parse("application/x-www-form-urlencoded; charset=utf-8");
     //URL derived from form URL
-    //--------------------------URL for mess poll------------------------------
+    //--------------------------URL for mess poll_mess------------------------------
     public static final String URL="https://docs.google.com/a/iiitd.ac.in/forms/d/1ibU1BqSDi1sOKmOZBlag3onIATD6sxu8NPCSd2iQo2c/formResponse";
 
 
@@ -75,7 +75,7 @@ int j=3;
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        rootView = inflater.inflate(R.layout.poll, container, false);
+        rootView = inflater.inflate(R.layout.poll_mess, container, false);
 
 
         submit = (Button)rootView.findViewById(R.id.submit);

@@ -10,6 +10,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender.SendIntentException;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -44,8 +45,9 @@ public class sign_in extends AppCompatActivity implements OnConnectionFailedList
     GoogleApiClient google_api_client;
     GoogleApiAvailability google_api_availability;
     SignInButton signIn_btn;
-    public String  personPhotoUrl,personName;
+    public String  personPhotoUrl,personName,personPhone;
     private static final int SIGN_IN_CODE = 0;
+    public static final String PREFS_NAME ="MyPrefsFile";
     private static final int PROFILE_PIC_SIZE = 120;
     private ConnectionResult connection_result;
     private boolean is_intent_inprogress;
@@ -53,12 +55,18 @@ public class sign_in extends AppCompatActivity implements OnConnectionFailedList
     private int request_code;
     ProgressDialog progress_dialog;
     public RadioGroup rg;
-    public int selectedId=1;
+    public String inputx;
+    public int selectedId;
+    public String m_text;
+    int flag=0;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+        selectedId = settings.getInt("Id", selectedId);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(sign_in.this);
         builder.setTitle("Select User Type :");
@@ -73,15 +81,14 @@ public class sign_in extends AppCompatActivity implements OnConnectionFailedList
         rg.setPadding(30, 50, 0, 0);
         rg.setOrientation(RadioGroup.VERTICAL);//or RadioGroup.VERTICAL
 
-            rb[0] = new RadioButton(this);
-            rg.addView(rb[0]);
+        rb[0] = new RadioButton(this);
+        rg.addView(rb[0]);
 
         rb[0].setTextSize(18);
 
 
-            rb[0].setText("Canteen Vendor");
+        rb[0].setText("Canteen Vendor");
         rb[0].setTextColor(Color.parseColor("#1b4a75"));
-
 
 
         rb[1] = new RadioButton(this);
@@ -97,11 +104,7 @@ public class sign_in extends AppCompatActivity implements OnConnectionFailedList
         rb[2].setTextColor(Color.parseColor("#1b4a75"));
         rb[2].setTextSize(18);
         rb[2].setChecked(true);
-         //   rb[i].setId(i + 100);
-
-
-
-
+        //   rb[i].setId(i + 100);
 
 
         builder.setView(rg);
@@ -113,6 +116,8 @@ public class sign_in extends AppCompatActivity implements OnConnectionFailedList
 
 
                 selectedId = rg.getCheckedRadioButtonId();
+                flag=1;
+
 
             }
         });
@@ -181,6 +186,14 @@ public class sign_in extends AppCompatActivity implements OnConnectionFailedList
 
     protected void onStop() {
         super.onStop();
+
+        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putInt("Id",selectedId);
+
+
+// Commit the edits!
+        editor.commit();
         if (google_api_client.isConnected()) {
             google_api_client.disconnect();
         }

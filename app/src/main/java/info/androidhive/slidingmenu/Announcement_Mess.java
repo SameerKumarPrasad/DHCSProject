@@ -27,7 +27,7 @@ import java.net.URLEncoder;
 /**
  * Created by Kapil Khatri on 05-Apr-16.
  */
-public class Announcement   extends Fragment {
+public class Announcement_Mess extends Fragment {
     //variables to post review google form
     public static final MediaType FORM_DATA_TYPE = MediaType.parse("application/x-www-form-urlencoded; charset=utf-8");
     //URL derived from form URL

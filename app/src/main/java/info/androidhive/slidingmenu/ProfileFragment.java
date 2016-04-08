@@ -18,7 +18,7 @@ public class ProfileFragment extends Fragment {
 
 
     ImageButton imgButton;
-    TextView no;
+    static TextView no;
     private String m_Text = "";
 	public ProfileFragment(){}
     private Context mContext;
@@ -33,8 +33,13 @@ public class ProfileFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_profile, container, false);
 
+
+        sign_in obj=new sign_in();
+
+
         imgButton =(ImageButton)rootView.findViewById(R.id.imageButton);
         no=(TextView)rootView.findViewById(R.id.no);
+        no.setText((obj.personPhone).toString());
         imgButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
