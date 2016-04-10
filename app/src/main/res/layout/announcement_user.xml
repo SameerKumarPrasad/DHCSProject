@@ -18,11 +18,23 @@
 
     <!-- yahan daal de -->
 
+    <ListView
+        android:layout_below="@+id/bd"
+        android:id="@+id/lv"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bd"
+        android:enabled="false"
+        android:onClick="buttonClickHandler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fetch" />
 
 
 
-
-    <TabHost
+    <!--<TabHost
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
@@ -56,6 +68,10 @@
                         android:layout_width="wrap_content"
                         android:id="@+id/mess_annouce"
                         android:layout_height="wrap_content" />
+
+
+
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -90,6 +106,6 @@
 
             </FrameLayout>
         </LinearLayout>
-    </TabHost>
+    </TabHost>-->
 
 </RelativeLayout>

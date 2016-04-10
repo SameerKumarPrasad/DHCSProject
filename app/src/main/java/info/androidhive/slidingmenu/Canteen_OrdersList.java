@@ -12,19 +12,130 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.LinearLayout;
+
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+
+import android.widget.ListView;
 import android.widget.NumberPicker;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
-import android.widget.TextView;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
 
 /**
  * Created by Kapil Khatri on 05-Apr-16.
  */
 public class Canteen_OrdersList extends Fragment {
 
-Button confirm1,done1,confirm2,confirm3,confirm4,done2,done3,done4;
+
+    private Context mContext;
+    @Override
+    public void onAttach(final Activity activity) {
+        super.onAttach(activity);
+        mContext = activity;
+    }
+
+    private static final String DEBUG_TAG = "HttpExample";
+    ArrayList<CanOrder> canorders = new ArrayList<CanOrder>();
+    ListView listview;
+    Button btnDownload;
+
+    /*@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        listview = (ListView)rootview.findViewById(R.id.listview);
+        btnDownload = (Button) findViewById(R.id.btnDownload);
+        ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
+        if (networkInfo != null && networkInfo.isConnected()) {
+            btnDownload.setEnabled(true);
+        } else {
+            btnDownload.setEnabled(false);
+        }
+    }*/
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+        View rootView = inflater.inflate(R.layout.canteen_orderslist, container, false);
+
+        //rootView.setContentView(R.layout.activity_main);
+        listview = (ListView)rootView.findViewById(R.id.listview1);
+        btnDownload = (Button) rootView.findViewById(R.id.btnDownload1);
+        ConnectivityManager connMgr = (ConnectivityManager)getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
+        if (networkInfo != null && networkInfo.isConnected()) {
+            btnDownload.setEnabled(true);
+        } else {
+            btnDownload.setEnabled(false);
+        }
+
+
+        btnDownload.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                new DownloadWebpageTask(new AsyncResult() {
+                    @Override
+                    public void onResult(JSONObject object) {
+                        processJson(object);
+                    }
+                }).execute("https://spreadsheets.google.com/tq?key=1XAEiDV1JQoZT6IksGgLJT8S4PdmudK7NMuEQ0Epsr-k");
+            }
+        });
+
+        return rootView;
+    }
+
+
+    /*public void buttonClickHandler(View view) {
+        new DownloadWebpageTask(new AsyncResult() {
+            @Override
+            public void onResult(JSONObject object) {
+                processJson(object);
+            }
+        }).execute("https://spreadsheets.google.com/tq?key=1j_XcsfyjmcTfJvj7tm_iOHK6x2t8cEefrX568pb8hjA");
+
+    }*/
+
+    private void processJson(JSONObject object) {
+
+        try {
+            JSONArray rows = object.getJSONArray("rows");
+
+            for (int r = 0; r < rows.length(); ++r) {
+                JSONObject row = rows.getJSONObject(r);
+                JSONArray columns = row.getJSONArray("c");
+
+                String timestamp = columns.getJSONObject(0).getString("v");
+                String name = columns.getJSONObject(1).getString("v");
+                String idli = columns.getJSONObject(3).getString("v");
+                String vada = columns.getJSONObject(4).getString("v");
+                String roll = columns.getJSONObject(5).getString("v");
+                String hakka = columns.getJSONObject(6).getString("v");
+                String samosa = columns.getJSONObject(7).getString("v");
+                String mobileno = columns.getJSONObject(8).getString("v");
+                String momos = columns.getJSONObject(9).getString("v");
+                String chowmein = columns.getJSONObject(10).getString("v");
+                String burger = columns.getJSONObject(11).getString("v");
+                String place = columns.getJSONObject(2).getString("v");
+                String dosa = columns.getJSONObject(12).getString("v");
+                CanOrder Team = new CanOrder(timestamp,name,place,idli,dosa,vada, roll,hakka, samosa,burger,mobileno,momos,chowmein);
+                canorders.add(Team);
+            }
+
+            final CanOrderAdapter adapter = new CanOrderAdapter(mContext,R.layout.team2, canorders);
+            listview.setAdapter(adapter);
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
+/*Button confirm1,done1,confirm2,confirm3,confirm4,done2,done3,done4;
     private Context mContext;
     RadioGroup rg;
     LinearLayout ly1,ly2,ly3,ly4;
@@ -434,5 +545,5 @@ Button confirm1,done1,confirm2,confirm3,confirm4,done2,done3,done4;
 
 
         return rootView;
-    }
+    }*/
 }

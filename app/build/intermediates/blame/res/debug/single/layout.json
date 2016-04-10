@@ -504,6 +504,10 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/layout/team2.xml",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/layout/team2.xml"
+    },
+    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_item_material.xml"
     },
