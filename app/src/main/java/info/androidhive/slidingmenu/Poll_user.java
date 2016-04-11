@@ -50,7 +50,7 @@ public class Poll_user extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.announcement_user, container, false);
+        View rootView = inflater.inflate(R.layout.mess_review, container, false);
 
 
        /* mess_poll=(TextView)rootView.findViewById(R.id.mess_poll);
@@ -64,8 +64,8 @@ public class Poll_user extends Fragment {
 
         //----------------poll mess-------------------------
 
-        listview = (ListView)rootView.findViewById(R.id.lv);
-        btnDownload = (Button) rootView.findViewById(R.id.bd);
+        listview = (ListView)rootView.findViewById(R.id.listview);
+        btnDownload = (Button) rootView.findViewById(R.id.btnDownload);
         ConnectivityManager connMgr = (ConnectivityManager)getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
         if (networkInfo != null && networkInfo.isConnected()) {
@@ -151,11 +151,16 @@ public class Poll_user extends Fragment {
 
                 String UPTimeStamp = columns.getJSONObject(0).getString("v");
                 String UP = columns.getJSONObject(1).getString("v");
-                UPoll Team = new UPoll(UPTimeStamp, UP);
+                String op1 = columns.getJSONObject(2).getString("v");
+                String op2 = columns.getJSONObject(3).getString("v");
+                String op3 = columns.getJSONObject(4).getString("v");
+                String op4 = columns.getJSONObject(5).getString("v");
+                UPoll Team = new UPoll(UPTimeStamp, UP,op1,op2,op3,op4);
+
                 uPolls.add(Team);
             }
 
-            final UPollAdapter adapter = new UPollAdapter(mContext,R.layout.team1,uPolls);
+            final UPollAdapter adapter = new UPollAdapter(mContext,R.layout.upolllayout,uPolls);
             listview.setAdapter(adapter);
 
         } catch (JSONException e) {

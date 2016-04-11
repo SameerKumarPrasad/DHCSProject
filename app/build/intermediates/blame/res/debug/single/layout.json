@@ -16,6 +16,10 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\layout\\canteen_menu.xml"
     },
     {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/layout/upolllayout.xml",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/layout/upolllayout.xml"
+    },
+    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_layout.xml"
     },

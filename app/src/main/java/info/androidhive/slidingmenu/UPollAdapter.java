@@ -28,17 +28,22 @@ public class UPollAdapter  extends ArrayAdapter<UPoll>{
         View v = convertView;
         if (v == null) {
             LayoutInflater vi = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            v = vi.inflate(R.layout.team1, null);
+            v = vi.inflate(R.layout.upolllayout, null);
         }
         UPoll o = uPolls.get(position);
         if (o != null) {
-            TextView UPtimestamp = (TextView) v.findViewById(R.id.ts);
-            TextView UP = (TextView) v.findViewById(R.id.bf);
-
-
+            TextView UPtimestamp = (TextView) v.findViewById(R.id.ts1);
+            TextView UP = (TextView) v.findViewById(R.id.pollq);
+            TextView op1 = (TextView) v.findViewById(R.id.op1);
+            TextView op2 = (TextView) v.findViewById(R.id.op2);
+            TextView op3 = (TextView) v.findViewById(R.id.op3);
+            TextView op4 = (TextView) v.findViewById(R.id.op4);
             UPtimestamp.setText(String.valueOf(o.getUPTimeStamp()));
             UP.setText(String.valueOf(o.getUP()));
-
+            op1.setText(String.valueOf(o.getOP1()));
+            op2.setText(String.valueOf(o.getOP2()));
+            op3.setText(String.valueOf(o.getOP3()));
+            op4.setText(String.valueOf(o.getOP4()));
         }
         return v;
     }

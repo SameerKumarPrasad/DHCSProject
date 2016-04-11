@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="1500dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ts1"
+        android:text="time"
+        android:layout_marginTop="0dp"
+        android:layout_width="300dp"
+        android:layout_weight="100"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/pollq"
+        android:text="quest"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="200"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/op1"
+        android:text="opt1"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="200"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/op2"
+        android:text="opt2"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="200"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/op3"
+        android:text="opt3"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="200"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/op4"
+        android:text="op4"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="200"
+        android:layout_height="100dp" />
+
+
+
+
+</LinearLayout>
