@@ -5,595 +5,93 @@
 
 
 
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:orientation="vertical"
-        android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <ListView
-            android:layout_below="@+id/btnDownload1"
-            android:id="@+id/listview1"
-            android:layout_width="1000px"
-            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="wrap_content"
 
-        <Button
-            android:id="@+id/btnDownload1"
-            android:enabled="false"
-            android:onClick="buttonClickHandler"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="download table" />
-
-        <!--     <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:id="@+id/ly1"
-                android:orientation="vertical"
+                android:orientation="horizontal"
+                android:paddingTop="30dp"
+                android:paddingLeft="20dp"
+
                 android:layout_height="wrap_content">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Orders"
+                    android:textSize="20dp"
 
-              <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="30dp"
-                   android:paddingLeft="20dp"
+                    android:textColor="#d64d4d"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
 
-                   android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="50dp"
+                    android:textColor="#e39e54"
+                    android:text=""
+                    android:layout_height="wrap_content" />
 
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Order No."
-                       android:textSize="20dp"
+            </LinearLayout>
+            <LinearLayout
 
-                       android:textColor="#d64d4d"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/ly1"
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"
+                android:layout_height="wrap_content">
 
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:textSize="18dp"
-                       android:textStyle="bold"
-                       android:paddingLeft="50dp"
-                       android:textColor="#e39e54"
-                       android:text="34"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
+                <ListView
+                    android:layout_below="@+id/btnDownload"
+                    android:id="@+id/listview"
+                    android:layout_width="1000px"
+                    android:layout_height="wrap_content" />
 
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="15dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
+            </LinearLayout>
 
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Place"
-                       android:textSize="20dp"
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="25dp"
+                android:paddingLeft="70dp"
+                android:layout_height="wrap_content">
 
-                       android:textColor="#d64d4d"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="Next"
+                    android:onClick="buttonClickHandler"
+                    android:id="@+id/confirm1"
+                    android:textColor="#4d7358"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
 
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:textSize="18dp"
-                       android:textStyle="bold"
-                       android:paddingLeft="85dp"
-                       android:textColor="#e39e54"
-                       android:text="B-209, Boys Hostel"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="                 "
+                    android:layout_height="wrap_content" />
 
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="25dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Samosa"
-                       android:textSize="18dp"
-
-                       android:paddingLeft="45dp"
-                       android:textColor="#000000"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="3"
-                       android:textSize="18dp"
-                       android:textColor="#000000"
-                       android:paddingLeft="65dp"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="15dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Chowmein"
-                       android:textSize="18dp"
-
-                       android:paddingLeft="45dp"
-                       android:textColor="#000000"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="2"
-                       android:textSize="18dp"
-                       android:textColor="#000000"
-                       android:paddingLeft="45dp"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="25dp"
-                   android:paddingLeft="70dp"
-                   android:layout_height="wrap_content">
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:text="Confirm"
-                       android:id="@+id/confirm1"
-                       android:textColor="#4d7358"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="                 "
-                       android:layout_height="wrap_content" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:text="Done"
-                       android:id="@+id/done1"
-                       android:textColor="#4d7358"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:text="Done"
+                    android:id="@+id/done1"
+                    android:textColor="#4d7358"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
 
         </LinearLayout>
 
 
-           <LinearLayout
-               android:layout_width="wrap_content"
-               android:id="@+id/ly2"
-               android:orientation="vertical"
-               android:layout_height="wrap_content">
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="70dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Order No."
-                       android:textSize="20dp"
-
-                       android:textColor="#d64d4d"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:textSize="18dp"
-                       android:textStyle="bold"
-                       android:paddingLeft="50dp"
-                       android:textColor="#e39e54"
-                       android:text="35"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="15dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Place"
-                       android:textSize="20dp"
-
-                       android:textColor="#d64d4d"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:textSize="18dp"
-                       android:textStyle="bold"
-                       android:paddingLeft="85dp"
-                       android:textColor="#e39e54"
-                       android:text="C-204, Girls Hostel"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="25dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Idli"
-                       android:textSize="18dp"
-
-                       android:paddingLeft="45dp"
-                       android:textColor="#000000"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="3"
-                       android:textSize="18dp"
-                       android:textColor="#000000"
-                       android:paddingLeft="108dp"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="15dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Spring Roll"
-                       android:textSize="18dp"
-
-                       android:paddingLeft="45dp"
-                       android:textColor="#000000"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="2"
-                       android:textSize="18dp"
-                       android:textColor="#000000"
-                       android:paddingLeft="45dp"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="15dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Chowmein"
-                       android:textSize="18dp"
-
-                       android:paddingLeft="45dp"
-                       android:textColor="#000000"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="2"
-                       android:textSize="18dp"
-                       android:textColor="#000000"
-                       android:paddingLeft="45dp"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="25dp"
-                   android:paddingLeft="70dp"
-                   android:layout_height="wrap_content">
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:text="Confirm"
-                       android:id="@+id/confirm2"
-                       android:textColor="#4d7358"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="                 "
-                       android:layout_height="wrap_content" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:text="Done"
-                       android:id="@+id/done2"
-                       android:textColor="#4d7358"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-        </LinearLayout>
-
-
-           <LinearLayout
-               android:layout_width="wrap_content"
-               android:id="@+id/ly3"
-               android:orientation="vertical"
-               android:layout_height="wrap_content">
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="70dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Order No."
-                       android:textSize="20dp"
-
-                       android:textColor="#d64d4d"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:textSize="18dp"
-                       android:textStyle="bold"
-                       android:paddingLeft="50dp"
-                       android:textColor="#e39e54"
-                       android:text="36"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="15dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Place"
-                       android:textSize="20dp"
-
-                       android:textColor="#d64d4d"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:textSize="18dp"
-                       android:textStyle="bold"
-                       android:paddingLeft="85dp"
-                       android:textColor="#e39e54"
-                       android:text="A-309, Boys Hostel"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="15dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Burger"
-                       android:textSize="18dp"
-
-                       android:paddingLeft="45dp"
-                       android:textColor="#000000"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="1"
-                       android:textSize="18dp"
-                       android:textColor="#000000"
-                       android:paddingLeft="45dp"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="25dp"
-                   android:paddingLeft="70dp"
-                   android:layout_height="wrap_content">
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:text="Confirm"
-                       android:id="@+id/confirm3"
-                       android:textColor="#4d7358"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="                 "
-                       android:layout_height="wrap_content" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:text="Done"
-                       android:id="@+id/done3"
-                       android:textColor="#4d7358"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-        </LinearLayout>
-
-
-           <LinearLayout
-               android:layout_width="wrap_content"
-               android:id="@+id/ly4"
-               android:orientation="vertical"
-               android:layout_height="wrap_content">
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="70dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Order No."
-                       android:textSize="20dp"
-
-                       android:textColor="#d64d4d"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:textSize="18dp"
-                       android:textStyle="bold"
-                       android:paddingLeft="50dp"
-                       android:textColor="#e39e54"
-                       android:text="37"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="15dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Place"
-                       android:textSize="20dp"
-
-                       android:textColor="#d64d4d"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:textSize="18dp"
-                       android:textStyle="bold"
-                       android:paddingLeft="85dp"
-                       android:textColor="#e39e54"
-                       android:text="A-209, Girls Hostel"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="25dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Samosa"
-                       android:textSize="18dp"
-
-                       android:paddingLeft="45dp"
-                       android:textColor="#000000"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="3"
-                       android:textSize="18dp"
-                       android:textColor="#000000"
-                       android:paddingLeft="65dp"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="15dp"
-                   android:paddingLeft="20dp"
-                   android:layout_height="wrap_content">
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="Vada"
-                       android:textSize="18dp"
-
-                       android:paddingLeft="45dp"
-                       android:textColor="#000000"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="2"
-                       android:textSize="18dp"
-                       android:textColor="#000000"
-                       android:paddingLeft="108dp"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-
-               <LinearLayout
-                   android:layout_width="wrap_content"
-                   android:orientation="horizontal"
-                   android:paddingTop="25dp"
-                   android:paddingLeft="70dp"
-                   android:layout_height="wrap_content">
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:text="Confirm"
-                       android:id="@+id/confirm4"
-                       android:textColor="#4d7358"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-
-                   <TextView
-                       android:layout_width="wrap_content"
-                       android:text="                 "
-                       android:layout_height="wrap_content" />
-
-                   <Button
-                       android:layout_width="wrap_content"
-                       android:text="Done"
-                       android:id="@+id/done4"
-                       android:textColor="#4d7358"
-                       android:textStyle="bold"
-                       android:layout_height="wrap_content" />
-               </LinearLayout>
-               </LinearLayout>-->
-
-   </LinearLayout>
-</ScrollView>
-
-
-
-
-
+    </ScrollView>
 
 
 </LinearLayout>

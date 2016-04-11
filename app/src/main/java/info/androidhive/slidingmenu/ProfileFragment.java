@@ -38,8 +38,8 @@ public class ProfileFragment extends Fragment {
 
 
         imgButton =(ImageButton)rootView.findViewById(R.id.imageButton);
-        no=(TextView)rootView.findViewById(R.id.no);
-        no.setText((obj.personPhone).toString());
+        /*no=(TextView)rootView.findViewById(R.id.no);
+.        no.setText((obj.personPhone).toString());*/
         imgButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
