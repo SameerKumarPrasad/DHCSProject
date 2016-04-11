@@ -14,7 +14,7 @@
             android:id="@+id/ts"
             android:text="timestamp"
             android:textSize="15dp"
-            android:layout_weight="0"
+            android:layout_weight="200"
             android:textStyle="bold"
             android:textColor="#e39e"
             android:layout_marginTop="0dp"
@@ -26,7 +26,7 @@
             android:id="@+id/name"
             android:text="name"
             android:textSize="15dp"
-            android:layout_weight="0"
+            android:layout_weight="100"
             android:textStyle="bold"
             android:textColor="#e39e"
             android:layout_width="80dp"
@@ -35,7 +35,7 @@
             android:id="@+id/place"
             android:text="place"
             android:textSize="15dp"
-            android:layout_weight="0"
+            android:layout_weight="100"
             android:textStyle="bold"
             android:textColor="#e39e"
             android:layout_width="80dp"
@@ -45,7 +45,7 @@
             android:id="@+id/idli"
             android:text="idli"
             android:textSize="15dp"
-            android:layout_weight="0"
+            android:layout_weight="100"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -57,7 +57,7 @@
             android:text="dosa"
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="0"
+            android:layout_weight="100"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -68,7 +68,7 @@
             android:text="vada"
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="0"
+            android:layout_weight="100"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -79,7 +79,7 @@
             android:text="roll"
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="0"
+            android:layout_weight="100"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -90,7 +90,7 @@
             android:text="hakka"
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="0"
+            android:layout_weight="100"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -101,7 +101,7 @@
             android:text="samosa"
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="0"
+            android:layout_weight="100"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -113,7 +113,7 @@
             android:text="momos"
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="0"
+            android:layout_weight="100"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -124,7 +124,7 @@
             android:text="Burger"
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="0"
+            android:layout_weight="100"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -135,7 +135,7 @@
             android:text="mobileno"
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="0"
+            android:layout_weight="100"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -146,7 +146,7 @@
             android:text="chowmein"
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="0"
+            android:layout_weight="100"
             android:textStyle="bold"
             android:textColor="#e39e"
 
