@@ -2,12 +2,17 @@ package info.androidhive.slidingmenu;
 
 import android.app.Activity;
 import android.app.Fragment;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ListView;
 import android.widget.NumberPicker;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
@@ -16,6 +21,12 @@ import android.widget.TextSwitcher;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+
 public class Poll_user extends Fragment {
 
 
@@ -23,7 +34,17 @@ public class Poll_user extends Fragment {
     TextView mess_poll,mess_poll_option1,mess_poll_option2,mess_poll_option3,mess_poll_option4;
     TextView canteen_poll,canteen_poll_option1,canteen_poll_option2,canteen_poll_option3,canteen_poll_option4;
 
+    private Context mContext;
+    @Override
+    public void onAttach(final Activity activity) {
+        super.onAttach(activity);
+        mContext = activity;
+    }
 
+    private static final String DEBUG_TAG = "HttpExample";
+    ArrayList<UPoll> uPolls = new ArrayList<UPoll>();
+    ListView listview;
+    Button btnDownload;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -32,18 +53,45 @@ public class Poll_user extends Fragment {
         View rootView = inflater.inflate(R.layout.announcement_user, container, false);
 
 
-        mess_poll=(TextView)rootView.findViewById(R.id.mess_poll);
+       /* mess_poll=(TextView)rootView.findViewById(R.id.mess_poll);
         mess_poll_option1=(TextView)rootView.findViewById(R.id.mess_poll_option1);
         mess_poll_option2=(TextView)rootView.findViewById(R.id.mess_poll_option2);
         mess_poll_option3=(TextView)rootView.findViewById(R.id.mess_poll_option3);
-        mess_poll_option4=(TextView)rootView.findViewById(R.id.mess_poll_option4);
+        mess_poll_option4=(TextView)rootView.findViewById(R.id.mess_poll_option4);*/
 
 
-        canteen_poll=(TextView)rootView.findViewById(R.id.canteen_poll);
+
+
+        //----------------poll mess-------------------------
+
+        listview = (ListView)rootView.findViewById(R.id.lv);
+        btnDownload = (Button) rootView.findViewById(R.id.bd);
+        ConnectivityManager connMgr = (ConnectivityManager)getActivity().getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
+        if (networkInfo != null && networkInfo.isConnected()) {
+            btnDownload.setEnabled(true);
+        } else {
+            btnDownload.setEnabled(false);
+        }
+
+
+        btnDownload.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                new DownloadWebpageTask(new AsyncResult() {
+                    @Override
+                    public void onResult(JSONObject object) {
+                        processJson(object);
+                    }
+                }).execute("https://spreadsheets.google.com/tq?key=1r9dCehR0xvF2ujiUvGQU8uUSpVDQ8FzbGjmvogh6BcY");
+            }
+        });
+
+
+       /* canteen_poll=(TextView)rootView.findViewById(R.id.canteen_poll);
         canteen_poll_option1=(TextView)rootView.findViewById(R.id.canteen_poll_option1);
         canteen_poll_option2=(TextView)rootView.findViewById(R.id.canteen_poll_option2);
         canteen_poll_option3=(TextView)rootView.findViewById(R.id.canteen_poll_option3);
-        canteen_poll_option4=(TextView)rootView.findViewById(R.id.canteen_poll_option4);
+        canteen_poll_option4=(TextView)rootView.findViewById(R.id.canteen_poll_option4);*/
 
 
 
@@ -51,7 +99,7 @@ public class Poll_user extends Fragment {
 
 
 
-        th1=(TabHost)rootView.findViewById(R.id.tabHost);
+        /*th1=(TabHost)rootView.findViewById(R.id.tabHost);
 
         th1.setup();
         TabHost.TabSpec specs=th1.newTabSpec("tag1");
@@ -83,7 +131,7 @@ public class Poll_user extends Fragment {
                         .setBackgroundColor(Color.TRANSPARENT); // selected
 
             }
-        });
+        });*/
 
 
         return rootView;
@@ -92,7 +140,28 @@ public class Poll_user extends Fragment {
 
 
 
+    private void processJson(JSONObject object) {
 
+        try {
+            JSONArray rows = object.getJSONArray("rows");
+
+            for (int r = 0; r < rows.length(); ++r) {
+                JSONObject row = rows.getJSONObject(r);
+                JSONArray columns = row.getJSONArray("c");
+
+                String UPTimeStamp = columns.getJSONObject(0).getString("v");
+                String UP = columns.getJSONObject(1).getString("v");
+                UPoll Team = new UPoll(UPTimeStamp, UP);
+                uPolls.add(Team);
+            }
+
+            final UPollAdapter adapter = new UPollAdapter(mContext,R.layout.team1,uPolls);
+            listview.setAdapter(adapter);
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
 
 
 

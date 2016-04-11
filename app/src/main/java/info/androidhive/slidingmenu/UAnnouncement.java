@@ -10,7 +10,7 @@ public class UAnnouncement {
 
     public UAnnouncement(String UATimeStamp, String UA)
     {
-        this.setCtimesatamp(UATimeStamp);
+        this.setUATimesatamp(UATimeStamp);
         this.setUA(UA);
 
     }
@@ -19,7 +19,7 @@ public class UAnnouncement {
         return UATimeStamp;
     }
 
-    public void setCtimesatamp(String UATimeStamp) {
+    public void setUATimesatamp(String UATimeStamp) {
         this.UATimeStamp = UATimeStamp;
     }
 

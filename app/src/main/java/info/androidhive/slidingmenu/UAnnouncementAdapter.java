@@ -33,12 +33,12 @@ public class UAnnouncementAdapter extends ArrayAdapter<UAnnouncement> {
         }
         UAnnouncement o = uAnnouncements.get(position);
         if (o != null) {
-            TextView ctimestamp = (TextView) v.findViewById(R.id.ts);
-            TextView cr = (TextView) v.findViewById(R.id.bf);
+            TextView UAtimestamp = (TextView) v.findViewById(R.id.ts);
+            TextView UA = (TextView) v.findViewById(R.id.bf);
 
 
-            ctimestamp.setText(String.valueOf(o.getUATimeStamp()));
-            cr.setText(String.valueOf(o.getUA()));
+            UAtimestamp.setText(String.valueOf(o.getUATimeStamp()));
+            UA.setText(String.valueOf(o.getUA()));
 
         }
         return v;

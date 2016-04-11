@@ -429,7 +429,7 @@ public class Canteen_OrdersList extends Fragment {
                 String chowmein = columns.getJSONObject(12).getString("v");
                 CanOrder Team = new CanOrder(timestamp,name,place,idli,dosa,vada,roll,hakka,samosa,burger,mobileno,momos,chowmein );
                 canorders.add(Team);
-            }j++;
+            }
 
             final CanOrderAdapter adapter = new CanOrderAdapter(mContext,R.layout.team2, canorders);
             listview.setAdapter(adapter);
