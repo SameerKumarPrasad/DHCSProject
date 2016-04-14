@@ -61,10 +61,10 @@ public class MessInputFragment extends Fragment implements MediaStore.MediaColum
     private RadioGroup radioGroup3;
     private RadioGroup radioGroup4;
 
-    String rb;
-    String rl;
-    String re;
-    String rd;
+    String rb = "null";
+    String rl= "null";
+    String re= "null";
+    String rd= "null";
     TabHost th1,th2;
 
     ImageButton imgButton1,imgButton2,imgButton3,imgButton4;
@@ -192,7 +192,10 @@ public class MessInputFragment extends Fragment implements MediaStore.MediaColum
 
                 //execute asynctask
                 postDataTask.execute(URL,rb,rl,re,rd);
-
+                radioGroup1.clearCheck();
+                radioGroup2.clearCheck();
+                radioGroup3.clearCheck();
+                radioGroup4.clearCheck();
             }
         });
 
