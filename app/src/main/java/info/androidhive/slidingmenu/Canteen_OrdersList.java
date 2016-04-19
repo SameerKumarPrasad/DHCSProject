@@ -48,7 +48,7 @@ public class Canteen_OrdersList extends Fragment {
         mContext = activity;
     }
 
-    /*
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -215,8 +215,8 @@ public class Canteen_OrdersList extends Fragment {
         return rootView;
     }
 
-*/
-    @Override
+
+   /* @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
@@ -231,10 +231,10 @@ public class Canteen_OrdersList extends Fragment {
             confirm1.setEnabled(true);
         } else {
             confirm1.setEnabled(false);
-        }
+        }*/
 
 
-        confirm1.setOnClickListener(new View.OnClickListener() {
+        /*confirm1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 new DownloadWebpageTask(new AsyncResult() {
                     @Override
@@ -243,10 +243,10 @@ public class Canteen_OrdersList extends Fragment {
                     }
                 }).execute("https://spreadsheets.google.com/tq?key=1XAEiDV1JQoZT6IksGgLJT8S4PdmudK7NMuEQ0Epsr-k");
             }
-        });
+        });*/
 
 
-        done1=(Button)rootView.findViewById(R.id.done1);
+        /*done1=(Button)rootView.findViewById(R.id.done1);
 
         ly1=(LinearLayout)rootView.findViewById(R.id.ly1);
 
@@ -437,7 +437,7 @@ public class Canteen_OrdersList extends Fragment {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 
 
 }

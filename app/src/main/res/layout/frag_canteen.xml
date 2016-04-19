@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true">
-
+    android:fitsSystemWindows="true"
+    android:windowSoftInputMode="stateVisible|adjustResize">
 
 
 
@@ -37,7 +39,14 @@
                     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="match_parent"
                         android:id="@+id/sview"
+
+
                         android:layout_height="410dp">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:orientation="vertical"
+                            android:layout_height="fill_parent">
                         <TableLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -68,7 +77,8 @@
 
                             </TableRow>
 
-                            <TableRow>
+                            <TableRow android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
                                 <TextView
                                     android:layout_width="10dp"
                                     android:layout_height="50dp"
@@ -123,7 +133,8 @@
 
 
                             </TableRow>
-                            <TableRow>
+                            <TableRow android:layout_width="match_parent"
+                                android:layout_height="match_parent">
                                 <TextView
                                     android:layout_width="10dp"
                                     android:layout_height="50dp"
@@ -172,7 +183,7 @@
                                     android:id="@+id/dosa" />
                             </TableRow>
 
-                            <TableRow>
+                            <TableRow android:layout_width="match_parent">
                                 <TextView
                                     android:layout_width="10dp"
                                     android:layout_height="50dp"
@@ -222,7 +233,7 @@
                                     android:text="0"
                                     android:id="@+id/vada" />
                             </TableRow>
-                            <TableRow>
+                            <TableRow android:layout_width="match_parent">
                                 <TextView
 
                                     android:layout_width="wrap_content"
@@ -560,11 +571,106 @@
                                     android:paddingLeft="20dp"
                                     android:id="@+id/burger" />
                             </TableRow>
+                            <!--<TableRow>
 
+                                    <TextView android:layout_height="wrap_content"
+                                        android:paddingTop="25dp"
+                                        android:paddingLeft="40dp"
+                                        android:textColor="#150822"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:text="@string/txtplace"
+                                        android:id="@+id/txtplace" >
+                                    </TextView>&lt;!&ndash;
+                                    <TextView
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        ></TextView>&ndash;&gt;
+                                    <EditText android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+
+                                        android:id="@+id/etxtplace">
+                                    </EditText>
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView android:layout_height="wrap_content"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:paddingBottom="25dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:layout_width="wrap_content"
+                                    android:text="@string/mobile"
+                                    android:id="@+id/mobile" >
+                                </TextView>&lt;!&ndash;
+                                    <TextView
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        ></TextView>&ndash;&gt;
+                                <EditText android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+
+                                    android:id="@+id/etxtmobile">
+                                </EditText>
+
+                            </TableRow>-->
                             <!-- everything you already have -->
                         </TableLayout>
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <TableRow>
 
+                                <TextView android:layout_height="wrap_content"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:layout_width="wrap_content"
+                                    android:text="@string/txtplace"
+                                    android:id="@+id/txtplace" >
+                                </TextView><!--
+                                    <TextView
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        ></TextView>-->
+                                <EditText android:layout_width="200dp"
+                                    android:layout_height="match_parent"
 
+                                    android:id="@+id/etxtplace">
+                                </EditText>
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView android:layout_height="wrap_content"
+                                    android:paddingTop="25dp"
+                                    android:paddingLeft="40dp"
+                                    android:paddingBottom="25dp"
+                                    android:textColor="#150822"
+                                    android:textSize="17dp"
+                                    android:layout_width="wrap_content"
+                                    android:text="@string/mobile"
+                                    android:id="@+id/mobile" >
+                                </TextView><!--
+                                    <TextView
+                                        android:layout_height="wrap_content"
+                                        android:layout_width="wrap_content"
+                                        ></TextView>-->
+                                <EditText android:layout_width="200dp"
+                                    android:layout_height="wrap_content"
+
+                                    android:id="@+id/etxtmobile">
+                                </EditText>
+
+                            </TableRow>
+                        </TableLayout>
+
+                    </LinearLayout>
 
                     </ScrollView>
 
@@ -581,20 +687,7 @@
                         android:layout_gravity="center_horizontal"
                         />
 
-                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                        android:layout_width="fill_parent"
-                        android:layout_height="56px"
-                        android:orientation="horizontal">
-                        <TextView android:layout_height="wrap_content"
-                            android:layout_width="wrap_content"
-                            android:text="@string/txtplace"
-                            android:id="@+id/txtplace" >
-                        </TextView>
-                        <EditText android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/etxtplace">
-                        </EditText>
-                    </LinearLayout>
+
                 </LinearLayout>
 
                 <!--tab1 yahan tak h-->

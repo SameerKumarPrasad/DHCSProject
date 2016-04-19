@@ -69,6 +69,7 @@ public class Announcement_Mess extends Fragment {
 
                 //execute asynctask
                 postDataTask.execute(URL,aData.getText().toString());
+                aData.setText("");
 
             }
         });

@@ -45,7 +45,7 @@ public class sign_in extends AppCompatActivity implements OnConnectionFailedList
     GoogleApiClient google_api_client;
     GoogleApiAvailability google_api_availability;
     SignInButton signIn_btn;
-    public String  personPhotoUrl,personName,personPhone;
+    public static String  personPhotoUrl,personName,personPhone;
     private static final int SIGN_IN_CODE = 0;
     public static final String PREFS_NAME ="MyPrefsFile";
     private static final int PROFILE_PIC_SIZE = 120;

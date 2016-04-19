@@ -227,7 +227,7 @@ public class MessInputFragment extends Fragment implements MediaStore.MediaColum
                                                       PostDataTask1 postDataTask1 = new PostDataTask1();
 
                                                       //execute asynctask
-                                                      postDataTask1.execute(URL1, m_Text1);
+                                                      postDataTask1.execute(URL1, m_Text1,"null","null","null");
                                                   }
                                               });
                                               builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -377,7 +377,7 @@ public class MessInputFragment extends Fragment implements MediaStore.MediaColum
                                                       PostDataTask2 postDataTask2 = new PostDataTask2();
 
                                                       //execute asynctask
-                                                      postDataTask2.execute(URL1, m_Text2);
+                                                      postDataTask2.execute(URL1,"null", m_Text2,"null","null");
                                                   }
                                               });
                                               builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -417,7 +417,7 @@ public class MessInputFragment extends Fragment implements MediaStore.MediaColum
                                                       PostDataTask3 postDataTask3 = new PostDataTask3();
 
                                                       //execute asynctask
-                                                      postDataTask3.execute(URL1, m_Text3);
+                                                      postDataTask3.execute(URL1,"null","null", m_Text3,"null");
                                                   }
                                               });
                                               builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -458,7 +458,7 @@ public class MessInputFragment extends Fragment implements MediaStore.MediaColum
                                                       PostDataTask4 postDataTask4 = new PostDataTask4();
 
                                                       //execute asynctask
-                                                      postDataTask4.execute(URL1, m_Text4);
+                                                      postDataTask4.execute(URL1,"null","null","null", m_Text4);
                                                   }
                                               });
                                               builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -546,12 +546,18 @@ public class MessInputFragment extends Fragment implements MediaStore.MediaColum
             Boolean result = true;
             String url = inputData[0];
             String reviewB = inputData[1];
+            String reviewL = inputData[2];
+            String reviewS = inputData[3];
+            String reviewD = inputData[4];
             String postBody="";
 
             try {
                 //all values must be URL encoded to make sure that special characters like & | ",etc.
                 //do not cause problems
-                postBody = BREAKFAST_REVIEW_KEY+"=" + URLEncoder.encode(reviewB, "UTF-8");
+                postBody = BREAKFAST_REVIEW_KEY+"=" + URLEncoder.encode(reviewB, "UTF-8")+
+                        "&" + LUNCH_REVIEW_KEY + "=" + URLEncoder.encode(reviewL,"UTF-8")+
+                        "&" + SNACKS_REVIEW_KEY + "=" + URLEncoder.encode(reviewS,"UTF-8")+
+                        "&" + DINNER_REVIEW_KEY + "=" + URLEncoder.encode(reviewD,"UTF-8");
             } catch (UnsupportedEncodingException ex) {
                 result=false;
             }
@@ -589,13 +595,19 @@ public class MessInputFragment extends Fragment implements MediaStore.MediaColum
         protected Boolean doInBackground(String... inputData) {
             Boolean result = true;
             String url = inputData[0];
-            String reviewL = inputData[1];
+            String reviewB = inputData[1];
+            String reviewL = inputData[2];
+            String reviewS = inputData[3];
+            String reviewD = inputData[4];
             String postBody="";
 
             try {
                 //all values must be URL encoded to make sure that special characters like & | ",etc.
                 //do not cause problems
-                postBody = LUNCH_REVIEW_KEY+"=" + URLEncoder.encode(reviewL, "UTF-8");
+                postBody =  BREAKFAST_REVIEW_KEY+"=" + URLEncoder.encode(reviewB, "UTF-8")+
+                        "&" + LUNCH_REVIEW_KEY + "=" + URLEncoder.encode(reviewL,"UTF-8")+
+                        "&" + SNACKS_REVIEW_KEY + "=" + URLEncoder.encode(reviewS,"UTF-8")+
+                        "&" + DINNER_REVIEW_KEY + "=" + URLEncoder.encode(reviewD,"UTF-8");
             } catch (UnsupportedEncodingException ex) {
                 result=false;
             }
@@ -634,13 +646,19 @@ public class MessInputFragment extends Fragment implements MediaStore.MediaColum
         protected Boolean doInBackground(String... inputData) {
             Boolean result = true;
             String url = inputData[0];
-            String reviewE = inputData[1];
+            String reviewB = inputData[1];
+            String reviewL = inputData[2];
+            String reviewS = inputData[3];
+            String reviewD = inputData[4];
             String postBody="";
 
             try {
                 //all values must be URL encoded to make sure that special characters like & | ",etc.
                 //do not cause problems
-                postBody = SNACKS_REVIEW_KEY+"=" + URLEncoder.encode(reviewE, "UTF-8");
+                postBody =  BREAKFAST_REVIEW_KEY+"=" + URLEncoder.encode(reviewB, "UTF-8")+
+                        "&" + LUNCH_REVIEW_KEY + "=" + URLEncoder.encode(reviewL,"UTF-8")+
+                        "&" + SNACKS_REVIEW_KEY + "=" + URLEncoder.encode(reviewS,"UTF-8")+
+                        "&" + DINNER_REVIEW_KEY + "=" + URLEncoder.encode(reviewD,"UTF-8");
             } catch (UnsupportedEncodingException ex) {
                 result=false;
             }
@@ -679,13 +697,19 @@ public class MessInputFragment extends Fragment implements MediaStore.MediaColum
         protected Boolean doInBackground(String... inputData) {
             Boolean result = true;
             String url = inputData[0];
-            String reviewD = inputData[1];
+            String reviewB = inputData[1];
+            String reviewL = inputData[2];
+            String reviewS = inputData[3];
+            String reviewD = inputData[4];
             String postBody="";
 
             try {
                 //all values must be URL encoded to make sure that special characters like & | ",etc.
                 //do not cause problems
-                postBody = DINNER_REVIEW_KEY+"=" + URLEncoder.encode(reviewD, "UTF-8");
+                postBody =  BREAKFAST_REVIEW_KEY+"=" + URLEncoder.encode(reviewB, "UTF-8")+
+                        "&" + LUNCH_REVIEW_KEY + "=" + URLEncoder.encode(reviewL,"UTF-8")+
+                        "&" + SNACKS_REVIEW_KEY + "=" + URLEncoder.encode(reviewS,"UTF-8")+
+                        "&" + DINNER_REVIEW_KEY + "=" + URLEncoder.encode(reviewD,"UTF-8");
             } catch (UnsupportedEncodingException ex) {
                 result=false;
             }

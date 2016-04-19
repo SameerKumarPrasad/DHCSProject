@@ -1,5 +1,5 @@
 package info.androidhive.slidingmenu;
-
+import info.androidhive.slidingmenu.sign_in;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Fragment;
@@ -9,10 +9,12 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.text.InputType;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -73,6 +75,8 @@ public class CanteenFragment extends Fragment {
     ImageButton imgButton1;
     private Context mContext;
     private EditText DPlace;
+    private EditText Mcontact;
+
 
     /*GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent();
     GoogleSignInAccount acct = result.getSignInAccount();
@@ -87,17 +91,19 @@ public class CanteenFragment extends Fragment {
     }
 	@Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState) {
+            @Nullable Bundle savedInstanceState) {
 
         sign_in obj=new sign_in();
-        pname= obj.personName;
+        pname = sign_in.personName;
 
         View rootView = inflater.inflate(R.layout.frag_canteen, container, false);
+
 
 
         proceed=(Button)rootView.findViewById(R.id.proceed);
         tab3ly=(LinearLayout)rootView.findViewById(R.id.tab3ly);
         DPlace = (EditText)rootView.findViewById(R.id.etxtplace);
+        Mcontact = (EditText)rootView.findViewById(R.id.etxtmobile);
         imgButton1 =(ImageButton)rootView.findViewById(R.id.imageButton1);
         imgButton1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -400,7 +406,19 @@ public class CanteenFragment extends Fragment {
                 PostDataTask1 postDataTask1 = new PostDataTask1();
 
                 //execute asynctask
-                postDataTask1.execute(URL1, Mobile, DPlace.getText().toString(), idli.getText().toString(), dosa.getText().toString(), vada.getText().toString(), chowmein.getText().toString(), roll.getText().toString(), hakka.getText().toString(), samosa.getText().toString(), momos.getText().toString(),burger.getText().toString());
+                postDataTask1.execute(URL1, pname,Mcontact.getText().toString(), DPlace.getText().toString(), idli.getText().toString(), dosa.getText().toString(), vada.getText().toString(), chowmein.getText().toString(), roll.getText().toString(), hakka.getText().toString(), samosa.getText().toString(), momos.getText().toString(),burger.getText().toString());
+
+                Mcontact.setText("");
+                DPlace.setText("");
+                idli.setText("0");
+                dosa.setText("0");
+                vada.setText("0");
+                chowmein.setText("0");
+                roll.setText("0");
+                hakka.setText("0");
+                samosa.setText("0");
+                momos.setText("0");
+                burger.setText("0");
 
                 /*Intent intent = new Intent(getActivity(), order.class);
                 startActivity(intent);*/
@@ -409,6 +427,7 @@ public class CanteenFragment extends Fragment {
         });
         return rootView;
     }
+
 
     //-----------------------AsyncTask to send Canteen review data as a http POST request-------------------
     private class PostDataTask extends AsyncTask<String, Void, Boolean> {
@@ -461,25 +480,25 @@ public class CanteenFragment extends Fragment {
         protected Boolean doInBackground(String... inputData) {
             Boolean result = true;
             String url = inputData[0];
-           // String un = inputData[1];
-            String mo = inputData[1];
-            String pl = inputData[2];
-            String idl = inputData[3];
-            String dos = inputData[4];
-            String vad = inputData[5];
-            String chow = inputData[6];
-            String sprg = inputData[7];
-            String hak = inputData[8];
-            String samo = inputData[9];
-            String momo = inputData[10];
-            String burg = inputData[11];
+            String un = inputData[1];
+            String mo = inputData[2];
+            String pl = inputData[3];
+            String idl = inputData[4];
+            String dos = inputData[5];
+            String vad = inputData[6];
+            String chow = inputData[7];
+            String sprg = inputData[8];
+            String hak = inputData[9];
+            String samo = inputData[10];
+            String momo = inputData[11];
+            String burg = inputData[12];
             String postBody="";
 
             try {
                 //all values must be URL encoded to make sure that special characters like & | ",etc.
                 //do not cause problems
-                postBody = /*UNAME_KEY+"=" + URLEncoder.encode(un, "UTF-8") +
-                        "&" +*/MOBILE_KEY  + "=" + URLEncoder.encode(mo,"UTF-8") +
+                postBody = UNAME_KEY+"=" + URLEncoder.encode(un, "UTF-8") +
+                        "&" +MOBILE_KEY  + "=" + URLEncoder.encode(mo,"UTF-8") +
                         "&" + PLACE_KEY + "=" + URLEncoder.encode(pl,"UTF-8")+
                         "&" + IDLI_KEY + "=" + URLEncoder.encode(idl,"UTF-8") +
                         "&" + DOSA_KEY + "=" + URLEncoder.encode(dos,"UTF-8")+

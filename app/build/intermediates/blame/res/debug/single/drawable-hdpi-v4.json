@@ -1,67 +1,59 @@
 [
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\correct.jpg",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\correct.jpg"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\correct.jpg",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\correct.jpg"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_light.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_on_light.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_disabled_mono_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_media_route_disabled_mono_dark.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_normal.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\question.jpeg",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\question.jpeg"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_disabled_mono_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_media_route_disabled_mono_dark.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_light.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_light.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings_n.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\settings_n.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_standard_off_client.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-hdpi\\ic_plusone_standard_off_client.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\add_review.jpg",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\add_review.jpg"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_1.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_1.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\splash.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\splash.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\profile_n.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\profile_n.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_2_light.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_on_2_light.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_0_mono_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_on_0_mono_dark.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\add.jpg",
@@ -72,8 +64,16 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_pressed.9.png",
@@ -84,80 +84,104 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_on_0_mono_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_media_route_on_0_mono_dark.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_off_mono_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_off_mono_dark.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_plusone_medium_off_client.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-hdpi/ic_plusone_medium_off_client.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_on_0_mono_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_media_route_on_0_mono_dark.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_2_mono_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_on_2_mono_dark.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_light.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_light.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\add_review.jpg",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\add_review.jpg"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-hdpi\\ic_plusone_small_off_client.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_disabled_mono_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_disabled_mono_dark.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_disabled.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-hdpi\\ic_plusone_standard_off_client.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/cast_ic_notification_0.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.3.0/res/drawable-hdpi/cast_ic_notification_0.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_disabled_light.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_disabled_light.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_ic_googleplayservices.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/drawable-hdpi/common_ic_googleplayservices.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
@@ -172,10 +196,6 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_focused_holo.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_list_focused_holo.9.png"
     },
@@ -184,16 +204,12 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_media_play.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_disabled.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_on.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_on.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
@@ -204,36 +220,24 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\bg4.jpg"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_photos.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_photos.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/question.jpeg",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/question.jpeg"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\pic.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_0.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_0.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\settings_n.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\settings_n.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_pause.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_pause.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/cast_ic_notification_2.png",
@@ -244,16 +248,28 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_off_mono_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_off_mono_dark.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/mr_ic_audio_vol.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/mr_ic_audio_vol.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\profile_n.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\profile_n.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_mono_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_on_mono_dark.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
@@ -264,24 +280,20 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_setting_light.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_focused.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stats.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\stats.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_play.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_play.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_pressed.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pause_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_pause_dark.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/stats.png",
@@ -292,14 +304,6 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_play_light.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_000.png"
     },
@@ -308,16 +312,16 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/ic_drawer.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_normal.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_drawer.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_drawer.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_focused.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\canteen_n.jpg",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\canteen_n.jpg"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/settings_n.png",
@@ -328,8 +332,16 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_longpressed_holo.9.png",
@@ -344,144 +356,112 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/about_n.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/about_n.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/powered_by_google_light.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/res/drawable-hdpi/powered_by_google_light.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/cast_ic_notification_on.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.3.0/res/drawable-hdpi/cast_ic_notification_on.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/incorrect.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/incorrect.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wallet_n.jpg",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\wallet_n.jpg"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/splash.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/splash.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_on_mono_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_media_route_on_mono_dark.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\canteen_n.jpg",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\canteen_n.jpg"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting_light.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_setting_light.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_focused.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_home.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/ic_home.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu.jpg",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\menu.jpg"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_1_light.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_on_1_light.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/cast_ic_notification_on.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.3.0/res/drawable-hdpi/cast_ic_notification_on.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/powered_by_google_light.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/res/drawable-hdpi/powered_by_google_light.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg.jpg",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\bg.jpg"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/incorrect.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/incorrect.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/splash.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/splash.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pic.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\pic.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_on_mono_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_media_route_on_mono_dark.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_2_mono_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_on_2_mono_dark.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_1.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_1.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_focused.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_home.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/ic_home.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\input_n.jpg",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\input_n.jpg"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_disabled_light.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_disabled_light.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\negative.jpg",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\negative.jpg"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_whats_hot.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/ic_whats_hot.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_2.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_2.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_pause_light.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_pause_light.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit.jpg",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\edit.jpg"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\add_option.jpg",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\add_option.jpg"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\splash.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\splash.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\announcement.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\announcement.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
@@ -492,8 +472,8 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/profile_n.png",
@@ -504,56 +484,64 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pause_light.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_pause_light.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg2.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/bg2.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/contact_n.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/contact_n.png"
     },
     {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\incorrect.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\incorrect.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_full_open_on_phone.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/res/drawable-hdpi/common_full_open_on_phone.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_light.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_play_light.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_off_light.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_off_light.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\review.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\review.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_light_normal.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/splash_2.png",
@@ -572,56 +560,64 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/add_option.jpg"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\announcement.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\announcement.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_disabled_mono_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_disabled_mono_dark.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting_light.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_setting_light.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_off_mono_dark.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_media_route_off_mono_dark.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\how_many.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\how_many.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_home.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_home.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\negative.jpg",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\negative.jpg"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_small_off_client.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-hdpi\\ic_plusone_small_off_client.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_dark.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg2.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\bg2.png"
     },
     {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_home.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_home.png"
+    },
+    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_focused.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_play_dark.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_light.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_play_light.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_pages.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/ic_pages.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_messiah.jpg",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\icon_messiah.jpg"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_whats_hot.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_whats_hot.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
@@ -630,6 +626,10 @@
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_focused.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/cast_ic_notification_1.png",
@@ -652,36 +652,32 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/bg.jpg",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/bg.jpg"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_2.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_2.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wallet_n.jpg",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\wallet_n.jpg"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_messiah.jpg",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\icon_messiah.jpg"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_whats_hot.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_whats_hot.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/powered_by_google_dark.png",
@@ -692,48 +688,36 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_pressed.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pages.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_pages.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_play_dark.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_play_dark.png"
     },
     {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_on.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_on.png"
+    },
+    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/correct.jpg",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/correct.jpg"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_n.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\about_n.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_cast_off_light.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_cast_off_light.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pages.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_pages.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
@@ -744,20 +728,20 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_cast_dark.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mr_ic_audio_vol.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\mr_ic_audio_vol.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/wallet_n.jpg",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/wallet_n.jpg"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\incorrect.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\incorrect.png"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_cast_on_2_light.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_cast_on_2_light.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png",
@@ -766,6 +750,10 @@
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_disabled.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\contact_n.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\contact_n.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_on_2_mono_dark.png",
@@ -780,16 +768,44 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-hdpi/ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_mono_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_on_mono_dark.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_communities.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_communities.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/plus1.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/plus1.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon_messiah.jpg",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/icon_messiah.jpg"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\splash_2.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\splash_2.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_1_light.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_on_1_light.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
@@ -800,24 +816,8 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/add.jpg"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\splash_2.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\splash_2.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/review.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/review.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png",
@@ -828,32 +828,32 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_cast_on_0_light.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_setting_dark.png"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_light_normal.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_cast_disabled_light.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_cast_disabled_light.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_2_light.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_on_2_light.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\cast_ic_notification_0.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.3.0\\res\\drawable-hdpi\\cast_ic_notification_0.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-hdpi\\ic_plusone_medium_off_client.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_dark.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
@@ -864,20 +864,16 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\review.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\review.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_cast_on_1_light.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_cast_on_1_light.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_play_dark.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/input_n.jpg",
@@ -888,8 +884,8 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_medium_off_client.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-hdpi\\ic_plusone_medium_off_client.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_cast_on_light.png",
@@ -900,36 +896,28 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_cast_light.png"
     },
     {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.3.0\\res\\drawable-hdpi\\powered_by_google_dark.png"
+    },
+    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_setting_dark.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_setting_dark.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\stats.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\stats.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_0_light.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_on_0_light.png"
+    },
+    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/add_review.jpg",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/add_review.jpg"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
@@ -940,48 +928,60 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-hdpi/ic_plusone_small_off_client.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ic_clear_mtrl_alpha.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/minus.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/minus.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/canteen_n.jpg",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/canteen_n.jpg"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_drawer.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_drawer.png"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_route_on_1_mono_dark.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_media_route_on_1_mono_dark.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/edit.jpg",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/edit.jpg"
     },
     {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_setting_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_setting_dark.png"
+    },
+    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_normal.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_light.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_on_light.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_0_mono_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_on_0_mono_dark.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pause_light.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_pause_light.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
@@ -996,36 +996,32 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/res/drawable-hdpi/ic_plusone_standard_off_client.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\input_n.jpg",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\input_n.jpg"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
-    },
-    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_disabled.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_1_mono_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_on_1_mono_dark.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_pressed.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_photos.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_photos.png"
+    },
+    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_plus_signin_btn_text_dark_focused.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_tall_off_client.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-hdpi\\ic_plusone_tall_off_client.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png",
@@ -1040,16 +1036,36 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_route_on_1_mono_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_route_on_1_mono_dark.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\edit.jpg",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\edit.jpg"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\menu.jpg",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\menu.jpg"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\how_many.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\how_many.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/menu.jpg",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/src/main/res/drawable-hdpi/menu.jpg"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_disabled.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_communities.png",
@@ -1064,6 +1080,14 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_light.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.3.0\\res\\drawable-hdpi\\powered_by_google_light.png"
+    },
+    {
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\mr_ic_audio_vol.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\mr_ic_audio_vol.png"
+    },
+    {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-hdpi/abc_list_selector_disabled_holo_dark.9.png"
     },
@@ -1072,36 +1096,32 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_plus_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_play.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_play.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\question.jpeg",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\question.jpeg"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bg.jpg",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\bg.jpg"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_pause_dark.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_pause_dark.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal.9.png",
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/res/drawable-hdpi/common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_communities.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\ic_communities.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_ic_googleplayservices.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/announcement.png",
@@ -1112,16 +1132,12 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_pause_dark.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\contact_n.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\contact_n.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\add_option.jpg",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\add_option.jpg"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_media_pause.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_media_pause.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_pressed.9.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-hdpi\\ic_plusone_tall_off_client.png"
     },
     {
         "merged": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/common_google_signin_btn_icon_light_focused.9.png",
@@ -1132,23 +1148,15 @@
         "source": "/home/ubuntu/Downloads/SlidingMenu1/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-hdpi/ic_media_pause.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_on_0_light.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_on_0_light.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-hdpi\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_cast_off_light.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\drawable-hdpi\\ic_cast_off_light.png"
     },
     {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_dark.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.3.0\\res\\drawable-hdpi\\powered_by_google_dark.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\powered_by_google_light.png",
-        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.3.0\\res\\drawable-hdpi\\powered_by_google_light.png"
+        "merged": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\about_n.png",
+        "source": "/home/ubuntu/Downloads/SlidingMenu1/C:\\Users\\Kapil Khatri\\Desktop\\SlidingMenu1\\app\\src\\main\\res\\drawable-hdpi\\about_n.png"
     }
 ]

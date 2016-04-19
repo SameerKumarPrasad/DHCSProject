@@ -83,6 +83,8 @@ public class Poll_canteen extends Fragment {
         option1 = (EditText)rootView.findViewById(R.id.opt1);
         option2 = (EditText)rootView.findViewById(R.id.opt2);
 
+        option3 = (EditText)rootView.findViewById(R.id.opt3);
+        option4 = (EditText)rootView.findViewById(R.id.opt4);
 
         //----------------onclick listner for sending data to sheet -------------------
         submit.setOnClickListener(new View.OnClickListener()
@@ -94,12 +96,16 @@ public class Poll_canteen extends Fragment {
                 PostDataTask postDataTask = new PostDataTask();
 
                 //execute asynctask
-                postDataTask.execute(URL,question.getText().toString(),option1.getText().toString(),option2.getText().toString());
-
+                postDataTask.execute(URL, question.getText().toString(), option1.getText().toString(), option2.getText().toString(), option3.getText().toString(), option4.getText().toString());
+                question.setText("");
+                option1.setText("");
+                option2.setText("");
+                option3.setText("");
+                option4.setText("");
             }
         });
 
-        add =(ImageButton)rootView.findViewById(R.id.add);
+       /* add =(ImageButton)rootView.findViewById(R.id.add);
         mLayout = (LinearLayout) rootView.findViewById(R.id.ll);
         EditText textView = new EditText(mContext);
         textView.setText("New text");
@@ -111,11 +117,11 @@ public class Poll_canteen extends Fragment {
 
 
             }
-        });
+        });*/
         return rootView;
     }
 
-    private EditText createNewTextView() {
+    /*private EditText createNewTextView() {
         final ViewGroup.LayoutParams lparams = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         final EditText textView = new EditText(mContext);
         textView.setLayoutParams(lparams);
@@ -123,7 +129,7 @@ public class Poll_canteen extends Fragment {
         j=j+1;
         return textView;
     }
-
+*/
 
     //------------------------AsyncTask to send data for meals as a http POST request--------------------------
     private class PostDataTask extends AsyncTask<String, Void, Boolean> {
@@ -135,7 +141,8 @@ public class Poll_canteen extends Fragment {
             String quest = inputData[1];
             String o1 = inputData[2];
             String o2 = inputData[3];
-
+            String o3 = inputData[4];
+            String o4 = inputData[5];
             String postBody="";
 
             try {
@@ -143,7 +150,9 @@ public class Poll_canteen extends Fragment {
                 //do not cause problems
                 postBody = QUESTION_KEY+"=" + URLEncoder.encode(quest, "UTF-8") +
                         "&" + OPTION1_KEY + "=" + URLEncoder.encode(o1,"UTF-8") +
-                        "&" + OPTION2_KEY + "=" + URLEncoder.encode(o2,"UTF-8");
+                        "&" + OPTION2_KEY + "=" + URLEncoder.encode(o2,"UTF-8")+
+                        "&" + OPTION3_KEY + "=" + URLEncoder.encode(o3,"UTF-8") +
+                        "&" + OPTION4_KEY + "=" + URLEncoder.encode(o4,"UTF-8");
             } catch (UnsupportedEncodingException ex) {
                 result=false;
             }

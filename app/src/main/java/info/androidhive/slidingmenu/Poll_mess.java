@@ -96,7 +96,11 @@ int j=3;
 
                 //execute asynctask
                 postDataTask.execute(URL,question.getText().toString(),option1.getText().toString(),option2.getText().toString(),option3.getText().toString(),option4.getText().toString());
-
+                question.setText("");
+                option1.setText("");
+                option2.setText("");
+                option3.setText("");
+                option4.setText("");
             }
         });
 

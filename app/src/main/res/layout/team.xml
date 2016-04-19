@@ -3,49 +3,65 @@
 
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:layout_width="1500dp"
-    android:layout_height="match_parent">
+android:orientation="horizontal"
+android:layout_width="1500dp"
+android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/ts"
-        android:text="time"
-        android:layout_marginTop="0dp"
-        android:layout_width="300dp"
-        android:layout_weight="100"
-        android:layout_height="100dp" />
+<TextView
+    android:id="@+id/ts"
+    android:text="time"
+    android:layout_marginTop="0dp"
+    android:layout_width="150dp"
+    android:layout_weight="100"
+    android:layout_height="100dp"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:textColor="#e39e"/>
 
-    <TextView
-        android:id="@+id/bf"
-        android:text="Breakfast"
-        android:layout_width="300dp"
-        android:layout_marginTop="20dp"
-        android:layout_weight="200"
-        android:layout_height="100dp" />
+<TextView
+    android:id="@+id/bf"
 
-    <TextView
-        android:id="@+id/ln"
-        android:text="Lunch"
-        android:layout_marginTop="20dp"
-        android:layout_width="300dp"
-        android:layout_weight="200"
-        android:layout_height="100dp" />
+    android:layout_width="150dp"
+    android:layout_marginTop="20dp"
+    android:layout_weight="200"
+    android:layout_height="100dp"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:textColor="#e39e"/>
 
-    <TextView
-        android:id="@+id/sn"
-        android:text="Snacks"
-        android:layout_marginTop="20dp"
-        android:layout_width="300dp"
-        android:layout_weight="200"
-        android:layout_height="100dp" />
+<TextView
+    android:id="@+id/ln"
 
-    <TextView
-        android:id="@+id/dn"
-        android:text="Dinner"
-        android:layout_marginTop="20dp"
-        android:layout_width="300dp"
-        android:layout_weight="200"
-        android:layout_height="100dp" />
+    android:layout_marginTop="20dp"
+    android:layout_width="150dp"
+    android:layout_weight="200"
+    android:layout_height="100dp"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:textColor="#e39e"/>
+
+
+<TextView
+    android:id="@+id/sn"
+
+    android:layout_marginTop="20dp"
+    android:layout_width="150dp"
+    android:layout_weight="200"
+    android:layout_height="100dp"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:textColor="#e39e"/>
+
+<TextView
+    android:id="@+id/dn"
+
+    android:layout_marginTop="20dp"
+    android:layout_width="150dp"
+    android:layout_weight="200"
+    android:layout_height="100dp"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:textColor="#e39e"/>
 
 
 </LinearLayout>

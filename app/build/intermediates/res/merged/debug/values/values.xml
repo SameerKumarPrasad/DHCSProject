@@ -432,6 +432,7 @@
     <string name="gcm_defaultSenderId" translatable="false">563803350539</string>
     <string name="google_app_id">1:563803350539:android:1a347d1a9e5414bd</string>
     <string name="hello_world">Hello world!</string>
+    <string name="mobile">Contact no :</string>
     <string name="mr_media_route_button_content_description">Cast</string>
     <string name="mr_media_route_chooser_searching">Searching for devices\u2026</string>
     <string name="mr_media_route_chooser_title">Connect to device</string>
@@ -446,7 +447,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
-    <string name="txtplace">Place</string>
+    <string name="txtplace">Place      :</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

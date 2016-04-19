@@ -4,17 +4,17 @@
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="horizontal"
-        android:layout_width="1000dp"
+        android:layout_width="1500dp"
         android:layout_height="20dp"
         android:textSize="18dp"
         android:textStyle="bold"
-        android:textColor="#e39e"            >
+        android:textColor="#e39e">
 
         <TextView
             android:id="@+id/ts"
             android:text="timestamp"
             android:textSize="15dp"
-            android:layout_weight="200"
+            android:layout_weight="0"
             android:textStyle="bold"
             android:textColor="#e39e"
             android:layout_marginTop="0dp"
@@ -24,18 +24,18 @@
 
         <TextView
             android:id="@+id/name"
-            android:text="name"
+
             android:textSize="15dp"
-            android:layout_weight="100"
+            android:layout_weight="0"
             android:textStyle="bold"
             android:textColor="#e39e"
             android:layout_width="80dp"
             android:layout_height="100dp" />
         <TextView
             android:id="@+id/place"
-            android:text="place"
+
             android:textSize="15dp"
-            android:layout_weight="100"
+            android:layout_weight="0"
             android:textStyle="bold"
             android:textColor="#e39e"
             android:layout_width="80dp"
@@ -43,9 +43,9 @@
 
         <TextView
             android:id="@+id/idli"
-            android:text="idli"
+
             android:textSize="15dp"
-            android:layout_weight="100"
+            android:layout_weight="0"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -54,10 +54,10 @@
             android:layout_height="100dp" />
         <TextView
             android:id="@+id/dosa"
-            android:text="dosa"
+
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="100"
+            android:layout_weight="0"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -65,10 +65,10 @@
 
         <TextView
             android:id="@+id/vada"
-            android:text="vada"
+
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="100"
+            android:layout_weight="0"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -76,10 +76,10 @@
 
         <TextView
             android:id="@+id/roll"
-            android:text="roll"
+
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="100"
+            android:layout_weight="0"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -87,10 +87,10 @@
 
         <TextView
             android:id="@+id/hakka"
-            android:text="hakka"
+
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="100"
+            android:layout_weight="0"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -98,10 +98,10 @@
 
         <TextView
             android:id="@+id/samosa"
-            android:text="samosa"
+
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="100"
+            android:layout_weight="0"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -110,10 +110,10 @@
 
         <TextView
             android:id="@+id/momos"
-            android:text="momos"
+
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="100"
+            android:layout_weight="0"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -121,10 +121,10 @@
 
         <TextView
             android:id="@+id/burger"
-            android:text="Burger"
+
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="100"
+            android:layout_weight="0"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -132,10 +132,10 @@
 
         <TextView
             android:id="@+id/mobileno"
-            android:text="mobileno"
+
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="100"
+            android:layout_weight="0"
             android:textStyle="bold"
             android:textColor="#e39e"
 
@@ -143,10 +143,10 @@
 
         <TextView
             android:id="@+id/chowmein"
-            android:text="chowmein"
+            
             android:layout_width="80dp"
             android:textSize="15dp"
-            android:layout_weight="100"
+            android:layout_weight="0"
             android:textStyle="bold"
             android:textColor="#e39e"
 
